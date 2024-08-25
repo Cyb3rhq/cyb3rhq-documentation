@@ -3,7 +3,7 @@ name: Publish Sphinx Documentation
 on:
   push:
     branches:
-      - master  # or the branch you want to trigger the workflow on
+      - master  # or any other branch you want to trigger the workflow
 
 jobs:
   build:
@@ -16,20 +16,24 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'  # Replace with the version of Python you are using
+        python-version: '3.x'  # Replace with your specific Python version
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt  # Assuming you have a requirements.txt
+        pip install -r requirements.txt
         pip install sphinx
 
-    - name: Build Sphinx documentation
-      run: |
-        make html  # or any specific target like `make html-prod` or `make html-dev`
+    - name: Install Node.js for theme build (if needed)
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'  # Adjust the Node.js version as necessary
+
+    - name: Build Sphinx documentation for production
+      run: make html-prod
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs/html  # Path to the built HTML files
+        publish_dir: ./build/html  # Path to the built HTML files
