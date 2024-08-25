@@ -14,8 +14,8 @@ Amazon Security Lake is a service designed to help organizations collect, manage
 
 Up to Cyb3rhq v4.5, the following integrated applications allow users to manage Cyb3rhq and its security data using third-party platforms:
 
--  `Cyb3rhq for Splunk – Version 4.5 <https://documentation.cyb3rhq.com/4.5/deployment-options/splunk/splunk-app.html>`__
--  `Cyb3rhq for Elastic – Version 4.5 <https://documentation.cyb3rhq.com/4.5/deployment-options/elastic-stack/index.html>`__
+-  `Cyb3rhq for Splunk – Version 4.5 <https://cyb3rhq.github.io/documentation/4.5/deployment-options/splunk/splunk-app.html>`__
+-  `Cyb3rhq for Elastic – Version 4.5 <https://cyb3rhq.github.io/documentation/4.5/deployment-options/elastic-stack/index.html>`__
 
 However, from version 4.6, we will not develop these integrated applications any longer. We will only support them with critical security updates. In this document, we describe new methods of integrating your Cyb3rhq deployment with the following third-party security platforms:
 

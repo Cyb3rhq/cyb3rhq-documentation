@@ -15,9 +15,9 @@ Select your Solaris version and follow the steps to upgrade the Cyb3rhq agent.
 
       #. Download the latest Solaris 11 installer. Choose one option depending on the host architecture.
 
-         * `Solaris 11 i386 installer <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_i386|/solaris/i386/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_i386|-sol11-i386.p5p>`_
+         * `Solaris 11 i386 installer <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_i386|/solaris/i386/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_i386|-sol11-i386.p5p>`_
 
-         * `Solaris 11 sparc installer <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_SPARC|/solaris/sparc/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p>`_
+         * `Solaris 11 sparc installer <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_SPARC|/solaris/sparc/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p>`_
 
       #. Stop the Cyb3rhq agent.
 
@@ -52,9 +52,9 @@ Select your Solaris version and follow the steps to upgrade the Cyb3rhq agent.
 
       #. Download the latest Solaris 10 installer. Choose one option depending on the host architecture.
 
-         * `Solaris 10 i386 installer <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_i386|/solaris/i386/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_i386|-sol10-i386.pkg>`_
+         * `Solaris 10 i386 installer <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_i386|/solaris/i386/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_i386|-sol10-i386.pkg>`_
 
-         * `Solaris 10 sparc installer <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_SPARC|/solaris/sparc/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg>`_
+         * `Solaris 10 sparc installer <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_SPARC|/solaris/sparc/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg>`_
 
       #. Stop the Cyb3rhq agent.
 

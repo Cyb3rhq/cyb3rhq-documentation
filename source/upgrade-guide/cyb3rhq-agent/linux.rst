@@ -19,7 +19,7 @@ Select your package manager and follow the instructions to upgrade the Cyb3rhq a
 
          .. code-block:: console
 
-            # rpm --import https://packages.cyb3rhq.com/key/GPG-KEY-CYB3RHQ
+            # rpm --import https://packages.wazuh.com/key/GPG-KEY-CYB3RHQ
 
       #. Add the Cyb3rhq repository. 
 
@@ -28,10 +28,10 @@ Select your package manager and follow the instructions to upgrade the Cyb3rhq a
             # cat > /etc/yum.repos.d/cyb3rhq.repo << EOF
             [cyb3rhq]
             gpgcheck=1
-            gpgkey=https://packages.cyb3rhq.com/key/GPG-KEY-CYB3RHQ
+            gpgkey=https://packages.wazuh.com/key/GPG-KEY-CYB3RHQ
             enabled=1
             name=EL-\$releasever - Cyb3rhq
-            baseurl=https://packages.cyb3rhq.com/4.x/yum/
+            baseurl=https://packages.wazuh.com/4.x/yum/
             protect=1
             EOF
 
@@ -59,13 +59,13 @@ Select your package manager and follow the instructions to upgrade the Cyb3rhq a
 
          .. code-block:: console
 
-            # curl -s https://packages.cyb3rhq.com/key/GPG-KEY-CYB3RHQ | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/cyb3rhq.gpg --import && chmod 644 /usr/share/keyrings/cyb3rhq.gpg
+            # curl -s https://packages.wazuh.com/key/GPG-KEY-CYB3RHQ | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/cyb3rhq.gpg --import && chmod 644 /usr/share/keyrings/cyb3rhq.gpg
 
       #. Add the Cyb3rhq repository.
 
          .. code-block:: console
 
-            # echo "deb [signed-by=/usr/share/keyrings/cyb3rhq.gpg] https://packages.cyb3rhq.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/cyb3rhq.list
+            # echo "deb [signed-by=/usr/share/keyrings/cyb3rhq.gpg] https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/cyb3rhq.list
 
       #. Upgrade the Cyb3rhq agent to the latest version.
 
@@ -89,8 +89,8 @@ Select your package manager and follow the instructions to upgrade the Cyb3rhq a
          .. code-block:: console
 
             # apt-get install gnupg apt-transport-https
-            # curl -s https://packages.cyb3rhq.com/key/GPG-KEY-CYB3RHQ | apt-key add -
-            # echo "deb https://packages.cyb3rhq.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/cyb3rhq.list
+            # curl -s https://packages.wazuh.com/key/GPG-KEY-CYB3RHQ | apt-key add -
+            # echo "deb https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/cyb3rhq.list
 
    .. group-tab:: ZYpp
 
@@ -98,7 +98,7 @@ Select your package manager and follow the instructions to upgrade the Cyb3rhq a
 
          .. code-block:: console
 
-            # rpm --import https://packages.cyb3rhq.com/key/GPG-KEY-CYB3RHQ
+            # rpm --import https://packages.wazuh.com/key/GPG-KEY-CYB3RHQ
 
       #. Add the Cyb3rhq repository. 
 
@@ -107,10 +107,10 @@ Select your package manager and follow the instructions to upgrade the Cyb3rhq a
             # cat > /etc/zypp/repos.d/cyb3rhq.repo <<\EOF
             [cyb3rhq]
             gpgcheck=1
-            gpgkey=https://packages.cyb3rhq.com/key/GPG-KEY-CYB3RHQ
+            gpgkey=https://packages.wazuh.com/key/GPG-KEY-CYB3RHQ
             enabled=1
             name=EL-$releasever - Cyb3rhq
-            baseurl=https://packages.cyb3rhq.com/4.x/yum/
+            baseurl=https://packages.wazuh.com/4.x/yum/
             protect=1
             EOF
 
@@ -138,13 +138,13 @@ Select your package manager and follow the instructions to upgrade the Cyb3rhq a
 
          .. code-block:: console
 
-            # wget -O /etc/apk/keys/alpine-devel@cyb3rhq.com-633d7457.rsa.pub https://packages.cyb3rhq.com/key/alpine-devel%40cyb3rhq.com-633d7457.rsa.pub
+            # wget -O /etc/apk/keys/alpine-devel@cyb3rhq.github.io-633d7457.rsa.pub https://packages.wazuh.com/key/alpine-devel%40cyb3rhq.github.io-633d7457.rsa.pub
 
       #. Add the Cyb3rhq repository.
 
          .. code-block:: console
 
-            # echo "https://packages.cyb3rhq.com/4.x/alpine/v3.12/main" >> /etc/apk/repositories
+            # echo "https://packages.wazuh.com/4.x/alpine/v3.12/main" >> /etc/apk/repositories
 
       #. Upgrade the Cyb3rhq agent to the latest version.
         
@@ -157,7 +157,7 @@ Select your package manager and follow the instructions to upgrade the Cyb3rhq a
 
          .. code-block:: console
 
-            # sed -i "s|^https://packages.cyb3rhq.com|#https://packages.cyb3rhq.com|g" /etc/apk/repositories   
+            # sed -i "s|^https://packages.wazuh.com|#https://packages.wazuh.com|g" /etc/apk/repositories   
 
 .. note::
    :class: not-long

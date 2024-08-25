@@ -22,7 +22,7 @@ To start the installation process, select your architecture: i386 or SPARC.
 
          .. group-tab:: Solaris 10
 
-            #. Download the `Cyb3rhq agent for Solaris 10 i386 <https://packages.cyb3rhq.com/4.x/solaris/i386/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_i386|-sol10-i386.pkg>`_ package.
+            #. Download the `Cyb3rhq agent for Solaris 10 i386 <https://packages.wazuh.com/4.x/solaris/i386/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_i386|-sol10-i386.pkg>`_ package.
 
             #. Install the Cyb3rhq agent.
 
@@ -32,7 +32,7 @@ To start the installation process, select your architecture: i386 or SPARC.
 
          .. group-tab:: Solaris 11
 
-            #. Download the `Cyb3rhq agent for Solaris 11 i386 <https://packages.cyb3rhq.com/4.x/solaris/i386/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_i386|-sol11-i386.p5p>`_.
+            #. Download the `Cyb3rhq agent for Solaris 11 i386 <https://packages.wazuh.com/4.x/solaris/i386/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_i386|-sol11-i386.p5p>`_.
 
             #. Install the Cyb3rhq agent.
 
@@ -54,7 +54,7 @@ To start the installation process, select your architecture: i386 or SPARC.
 
          .. group-tab:: Solaris 10
 
-            #. Download the `Cyb3rhq agent for Solaris 10 SPARC <https://packages.cyb3rhq.com/4.x/solaris/sparc/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg>`_ package.
+            #. Download the `Cyb3rhq agent for Solaris 10 SPARC <https://packages.wazuh.com/4.x/solaris/sparc/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg>`_ package.
 
             #. Install the Cyb3rhq agent.
 
@@ -64,7 +64,7 @@ To start the installation process, select your architecture: i386 or SPARC.
 
          .. group-tab:: Solaris 11
 
-            #. Download the `Cyb3rhq agent for Solaris 11 SPARC <https://packages.cyb3rhq.com/4.x/solaris/sparc/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p>`_.
+            #. Download the `Cyb3rhq agent for Solaris 11 SPARC <https://packages.wazuh.com/4.x/solaris/sparc/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p>`_.
 
             #. Install the Cyb3rhq agent.
 

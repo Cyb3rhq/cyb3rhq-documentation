@@ -38,7 +38,7 @@ The Trust Services Criteria (TSC) created by the Assurance Services Executive Co
 
 Cyb3rhq assists with these criteria by performing log collection, file integrity monitoring, configuration assessment, threat detection, vulnerability assessment, and automated threat response.
 
-This document outlines use cases that show how Cyb3rhq helps users comply with the TSC common criteria, and the additional criteria for availability, confidentiality, and processing integrity. We have also created the `Using Cyb3rhq for TSC 2017 requirements guide <https://documentation.cyb3rhq.com/resources/using-cyb3rhq-for-TSC-2017-requirements-guide.pdf>`__, which complements this document. Please refer to the guide for more details on how Cyb3rhq helps meet TSC requirements.
+This document outlines use cases that show how Cyb3rhq helps users comply with the TSC common criteria, and the additional criteria for availability, confidentiality, and processing integrity. We have also created the `Using Cyb3rhq for TSC 2017 requirements guide <https://cyb3rhq.github.io/documentation/resources/using-cyb3rhq-for-TSC-2017-requirements-guide.pdf>`__, which complements this document. Please refer to the guide for more details on how Cyb3rhq helps meet TSC requirements.
 
 The following sections outline some of the technical requirements that Cyb3rhq supports:
 

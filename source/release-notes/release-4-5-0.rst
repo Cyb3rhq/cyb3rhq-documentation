@@ -16,7 +16,7 @@ This version includes new features or improvements, such as the following:
 Manager
 ^^^^^^^
 
-- `#17954 <https://github.com/cyb3rhq/cyb3rhq/pull/17954>`_ Vulnerability Detector now fetches the NVD feed from `https://feed.cyb3rhq.com`, based on the NVD API 2.0.
+- `#17954 <https://github.com/cyb3rhq/cyb3rhq/pull/17954>`_ Vulnerability Detector now fetches the NVD feed from `https://feed.cyb3rhq.github.io`, based on the NVD API 2.0.
 
    - The ``<update_from_year>`` option has been deprecated.
 

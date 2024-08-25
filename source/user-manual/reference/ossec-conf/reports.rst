@@ -156,14 +156,14 @@ Example of configuration
     <title>Auth_Report</title>
     <group>authentication_failed,</group>
     <srcip>192.168.1.10</srcip>
-    <email_to>recipient@example.cyb3rhq.com</email_to>
+    <email_to>recipient@example.cyb3rhq.github.io</email_to>
     <showlogs>yes</showlogs>
   </reports>
 
   <reports>
     <title>List of logged users</title>
     <rule>535</rule>
-    <email_to>recipient@example.cyb3rhq.com</email_to>
+    <email_to>recipient@example.cyb3rhq.github.io</email_to>
     <srcip>192.168.1.10</srcip>
     <showlogs>yes</showlogs>
   </reports>

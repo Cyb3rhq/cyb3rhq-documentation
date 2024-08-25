@@ -19,7 +19,7 @@ Add your billing details
 
 To add the billing details:
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_.
 
 2. Go to the **Account** section and select **Billing**.
 
@@ -46,7 +46,7 @@ Billing details can only be removed when there are no active paid environments. 
 
 In order to remove your billing information:
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_.
 
 2. Go to the **Account** section, select **Billing**, and select **Payment method**.
 

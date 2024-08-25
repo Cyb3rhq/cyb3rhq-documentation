@@ -83,7 +83,7 @@ To build a WPK for Windows, you need to first download an MSI package of the des
 
 .. code-block:: console
 
-  # curl -O https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_WINDOWS|/windows/cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi
+  # curl -O https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_WINDOWS|/windows/cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi
 
 Below, you will find an example of Windows WPK package building.
 
@@ -104,7 +104,7 @@ The following example demonstrates the process for an ``intel64`` architecture, 
 
 .. code-block:: console
 
-   # curl -O https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg
+   # curl -O https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg
 
 Below, you will find an example of macOS WPK package building.
 

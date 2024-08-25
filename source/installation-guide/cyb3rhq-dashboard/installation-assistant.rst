@@ -15,7 +15,7 @@ Cyb3rhq dashboard installation
 
    .. code-block:: console
 
-      # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
+      # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
 
 #. Run the Cyb3rhq installation assistant with the option ``--cyb3rhq-dashboard`` and the node name to install and configure the Cyb3rhq dashboard. The node name must be the same one used in ``config.yml`` for the initial configuration, for example, ``dashboard``. The Cyb3rhq installation assistant requires dependencies like ``openssl`` and ``lsof`` to work. To install them automatically, add the ``--install-dependencies`` option to the command.
    

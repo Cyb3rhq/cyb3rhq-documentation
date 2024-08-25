@@ -23,7 +23,7 @@ Getting your API key and the AWS token
 
    .. code-block::
 
-      curl -XPOST https://api.cloud.cyb3rhq.com/v2/storage/token -H "x-api-key: <YOUR_API_KEY>" -H "Content-Type: application/json" --data '
+      curl -XPOST https://api.cloud.cyb3rhq.github.io/v2/storage/token -H "x-api-key: <YOUR_API_KEY>" -H "Content-Type: application/json" --data '
       {
          "environment_cloud_id": "012345678ab",
          "token_expiration": "3600"

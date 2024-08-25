@@ -32,7 +32,7 @@ This indicates the service to integrate with.
 +--------------------+------------------------------------------------------------------------------------------+
 
 .. note::
-  In the case of custom external integration, name must begin with ``custom-`` for example: ``custom-myintegration``. Read the `How to integrate external software using Integrator <https://cyb3rhq.com/blog/how-to-integrate-external-software-using-integrator//>`_ document for more information.
+  In the case of custom external integration, name must begin with ``custom-`` for example: ``custom-myintegration``. Read the `How to integrate external software using Integrator <https://cyb3rhq.github.io/blog/how-to-integrate-external-software-using-integrator//>`_ document for more information.
 
 hook_url
 ^^^^^^^^

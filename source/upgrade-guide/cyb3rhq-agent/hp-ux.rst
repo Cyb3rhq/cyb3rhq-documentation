@@ -9,7 +9,7 @@ Upgrading Cyb3rhq agents on HP-UX systems
 
 Follow the steps to upgrade the Cyb3rhq agent on HP-UX systems.
 
-#. Download the latest `HP-UX installer <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_HPUX|/hp-ux/cyb3rhq-agent-|CYB3RHQ_CURRENT_HPUX|-|CYB3RHQ_REVISION_HPUX|-hpux-11v3-ia64.tar.gz>`_.
+#. Download the latest `HP-UX installer <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_HPUX|/hp-ux/cyb3rhq-agent-|CYB3RHQ_CURRENT_HPUX|-|CYB3RHQ_REVISION_HPUX|-hpux-11v3-ia64.tar.gz>`_.
 
 #. Stop the Cyb3rhq agent.
 

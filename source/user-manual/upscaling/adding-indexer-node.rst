@@ -74,7 +74,7 @@ We recommend creating entirely new certificates for your Cyb3rhq indexer nodes. 
 
    .. code-block:: console
 
-      # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
+      # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
       # bash cyb3rhq-certs-tool.sh -A
 
 #. Compress the certificates folder and copy it to the new Cyb3rhq indexer node(s). You can make use of the ``scp`` utility to securely copy the compressed file.
@@ -120,7 +120,7 @@ Perform the steps below on one indexer node only.
 
    .. code-block:: console
 
-      # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
+      # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
       # bash cyb3rhq-certs-tool.sh -A cyb3rhq-install-files/root-ca.pem cyb3rhq-install-files/root-ca.key
 
 #. Copy the newly created certificates to the ``cyb3rhq-install-files`` folder making sure not to replace the admin certificates.
@@ -161,7 +161,7 @@ Perform the steps below on one indexer node only.
 
          .. code-block:: console
 
-            # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
+            # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
             # bash cyb3rhq-certs-tool.sh -A
 
       #. Compress the certificates folder and copy it to the new Cyb3rhq indexer node(s). You can make use of the ``scp`` utility to securely copy the compressed file.

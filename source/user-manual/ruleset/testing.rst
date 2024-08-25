@@ -152,13 +152,13 @@ If you paste the log six more times, you can see that rule id ``5710`` "sshd: At
 Using the Cyb3rhq server API
 --------------------------
 
-The `logtest API  endpoint <https://documentation.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/user-manual/api/reference.html#tag/Logtest>`__ is part of the Cyb3rhq server APIs which you can use to interact with Cyb3rhq from the Cyb3rhq server or an authorized endpoint.
+The `logtest API  endpoint <https://cyb3rhq.github.io/documentation/|CYB3RHQ_CURRENT_MINOR|/user-manual/api/reference.html#tag/Logtest>`__ is part of the Cyb3rhq server APIs which you can use to interact with Cyb3rhq from the Cyb3rhq server or an authorized endpoint.
 
 You can use the Cyb3rhq server API to interact with the ``/var/ossec/bin/cyb3rhq-logtest`` utility via the two endpoints below.
 
-.. |logtest| replace:: `/logtest <https://documentation.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/user-manual/api/reference.html#operation/api.controllers.logtest_controller.run_logtest_tool>`__
+.. |logtest| replace:: `/logtest <https://cyb3rhq.github.io/documentation/|CYB3RHQ_CURRENT_MINOR|/user-manual/api/reference.html#operation/api.controllers.logtest_controller.run_logtest_tool>`__
 
-.. |logtest_sessions| replace:: `/logtest/sessions/{token} <https://documentation.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/user-manual/api/reference.html#operation/api.controllers.logtest_controller.end_logtest_session>`__
+.. |logtest_sessions| replace:: `/logtest/sessions/{token} <https://cyb3rhq.github.io/documentation/|CYB3RHQ_CURRENT_MINOR|/user-manual/api/reference.html#operation/api.controllers.logtest_controller.end_logtest_session>`__
 
 +-------------------------------+-----------------+-----------------------------------------------------------------------+
 | Endpoint                      | Method          | Description                                                           |

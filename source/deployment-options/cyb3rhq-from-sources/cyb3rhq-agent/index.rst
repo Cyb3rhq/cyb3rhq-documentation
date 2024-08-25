@@ -38,13 +38,13 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
 
                                 # yum update -y
                                 # yum install make gcc gcc-c++ policycoreutils-python automake autoconf libtool centos-release-scl openssl-devel wget bzip2 procps -y
-                                # curl -OL http://packages.cyb3rhq.com/utils/gcc/gcc-9.4.0.tar.gz && tar xzf gcc-9.4.0.tar.gz  && cd gcc-9.4.0/ && ./contrib/download_prerequisites && ./configure --enable-languages=c,c++ --prefix=/usr --disable-multilib --disable-libsanitizer && make -j$(nproc) && make install && ln -fs /bin/g++ /usr/bin/c++ && ln -fs /bin/gcc /usr/bin/cc && cd .. && rm -rf gcc-*
+                                # curl -OL http://packages.wazuh.com/utils/gcc/gcc-9.4.0.tar.gz && tar xzf gcc-9.4.0.tar.gz  && cd gcc-9.4.0/ && ./contrib/download_prerequisites && ./configure --enable-languages=c,c++ --prefix=/usr --disable-multilib --disable-libsanitizer && make -j$(nproc) && make install && ln -fs /bin/g++ /usr/bin/c++ && ln -fs /bin/gcc /usr/bin/cc && cd .. && rm -rf gcc-*
 
                             CMake 3.18 installation
 
                             .. code-block:: console
 
-                                # curl -OL https://packages.cyb3rhq.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz
+                                # curl -OL https://packages.wazuh.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz
                                 # cd cmake-3.18.3 && ./bootstrap --no-system-curl
                                 # make -j$(nproc) && make install
                                 # cd .. && rm -rf cmake-*
@@ -54,7 +54,7 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
                             .. code-block:: console
 
                                 # yum install make gcc gcc-c++ python3 python3-policycoreutils automake autoconf libtool openssl-devel cmake procps -y
-                                # curl -OL http://packages.cyb3rhq.com/utils/gcc/gcc-9.4.0.tar.gz && tar xzf gcc-9.4.0.tar.gz  && cd gcc-9.4.0/ && ./contrib/download_prerequisites && ./configure --enable-languages=c,c++ --prefix=/usr --disable-multilib --disable-libsanitizer && make -j$(nproc) && make install && ln -fs /bin/g++ /usr/bin/c++ && ln -fs /bin/gcc /usr/bin/cc && cd .. && rm -rf gcc-*
+                                # curl -OL http://packages.wazuh.com/utils/gcc/gcc-9.4.0.tar.gz && tar xzf gcc-9.4.0.tar.gz  && cd gcc-9.4.0/ && ./contrib/download_prerequisites && ./configure --enable-languages=c,c++ --prefix=/usr --disable-multilib --disable-libsanitizer && make -j$(nproc) && make install && ln -fs /bin/g++ /usr/bin/c++ && ln -fs /bin/gcc /usr/bin/cc && cd .. && rm -rf gcc-*
                                 # yum-config-manager --enable powertools
                                 # yum install libstdc++-static -y
 
@@ -62,7 +62,7 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
 
                             .. code-block:: console
 
-                                # curl -OL https://packages.cyb3rhq.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
+                                # curl -OL https://packages.wazuh.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
                                 # cd .. && rm -rf cmake-*
                                 # export PATH=/usr/local/bin:$PATH
 
@@ -76,7 +76,7 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
 
                     .. code-block:: console
 
-                        # curl -OL https://packages.cyb3rhq.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
+                        # curl -OL https://packages.wazuh.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
                         # cd .. && rm -rf cmake-*
 
                 .. group-tab:: ZYpp
@@ -89,7 +89,7 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
 
                     .. code-block:: console
 
-                        # curl -OL https://packages.cyb3rhq.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
+                        # curl -OL https://packages.wazuh.com/utils/cmake/cmake-3.18.3.tar.gz && tar -zxf cmake-3.18.3.tar.gz && cd cmake-3.18.3 && ./bootstrap --no-system-curl && make -j$(nproc) && make install
                         # cd .. && rm -rf cmake-*
 
                     .. note::
@@ -424,7 +424,7 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
 
                 .. code-block:: console
 
-                    # rpm -Uvh --nodeps http://packages-dev.cyb3rhq.com/deps/aix/wget-1.19-1.aix6.1.ppc.rpm
+                    # rpm -Uvh --nodeps http://packages-dev.cyb3rhq.github.io/deps/aix/wget-1.19-1.aix6.1.ppc.rpm
 
             #.  Download the following script.
 
@@ -440,8 +440,8 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
             
                 .. code-block:: console
                 
-                    # rpm -Uvh --nodeps http://packages-dev.cyb3rhq.com/deps/aix/bash-4.4-4.aix6.1.ppc.rpm
-                    # rpm -Uvh --nodeps http://packages-dev.cyb3rhq.com/deps/aix/libiconv-1.14-22.aix6.1.ppc.rpm
+                    # rpm -Uvh --nodeps http://packages-dev.cyb3rhq.github.io/deps/aix/bash-4.4-4.aix6.1.ppc.rpm
+                    # rpm -Uvh --nodeps http://packages-dev.cyb3rhq.github.io/deps/aix/libiconv-1.14-22.aix6.1.ppc.rpm
 
             #.  Install the necessary dependencies using the script.
 
@@ -473,7 +473,7 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
                 # cd src
                 # gmake clean-deps
                 # gmake clean
-                # gmake deps TARGET=agent RESOURCES_URL=http://packages.cyb3rhq.com/deps/27
+                # gmake deps TARGET=agent RESOURCES_URL=http://packages.wazuh.com/deps/27
                 # gmake TARGET=agent USE_SELINUX=no PREFIX=/var/ossec
 
         #.  Run the ``install.sh`` script. This will run a wizard that will guide you through the installation process using the Cyb3rhq sources:
@@ -617,7 +617,7 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
             .. code-block:: console
 
                 # cd cyb3rhq-|CYB3RHQ_CURRENT_FROM_SOURCES|
-                # /usr/local/bin/gmake -C src deps RESOURCES_URL=http://packages.cyb3rhq.com/deps/27 TARGET=agent
+                # /usr/local/bin/gmake -C src deps RESOURCES_URL=http://packages.wazuh.com/deps/27 TARGET=agent
                 # /usr/local/bin/gmake -C src TARGET=agent USE_SELINUX=no
 
         #.  Run the ``install.sh`` script. This will run a wizard that will guide you through the installation process using the Cyb3rhq sources:
@@ -719,11 +719,11 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
 
                         .. code-block:: console
 
-                            # curl -L http://packages.cyb3rhq.com/utils/gcc/gcc-5.5.0.tar.gz | gtar xz && cd gcc-5.5.0
-                            # curl -L http://packages.cyb3rhq.com/utils/gcc/mpfr-2.4.2.tar.bz2 | gtar xj && mv mpfr-2.4.2 mpfr
-                            # curl -L http://packages.cyb3rhq.com/utils/gcc/gmp-4.3.2.tar.bz2 | gtar xj && mv gmp-4.3.2 gmp
-                            # curl -L http://packages.cyb3rhq.com/utils/gcc/mpc-0.8.1.tar.gz | gtar xz && mv mpc-0.8.1 mpc
-                            # curl -L http://packages.cyb3rhq.com/utils/gcc/isl-0.14.tar.bz2 | gtar xj && mv isl-0.14 isl
+                            # curl -L http://packages.wazuh.com/utils/gcc/gcc-5.5.0.tar.gz | gtar xz && cd gcc-5.5.0
+                            # curl -L http://packages.wazuh.com/utils/gcc/mpfr-2.4.2.tar.bz2 | gtar xj && mv mpfr-2.4.2 mpfr
+                            # curl -L http://packages.wazuh.com/utils/gcc/gmp-4.3.2.tar.bz2 | gtar xj && mv gmp-4.3.2 gmp
+                            # curl -L http://packages.wazuh.com/utils/gcc/mpc-0.8.1.tar.gz | gtar xz && mv mpc-0.8.1 mpc
+                            # curl -L http://packages.wazuh.com/utils/gcc/isl-0.14.tar.bz2 | gtar xj && mv isl-0.14 isl
                             # unset CPLUS_INCLUDE_PATH && unset LD_LIBRARY_PATH
                             # export PATH=/usr/sbin:/usr/bin:/usr/ccs/bin:/opt/csw/bin
                             # mkdir -p /usr/local
@@ -746,7 +746,7 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
 
                         .. code-block:: console
 
-                            # curl -sL http://packages.cyb3rhq.com/utils/cmake/cmake-3.18.3.tar.gz | gtar xz
+                            # curl -sL http://packages.wazuh.com/utils/cmake/cmake-3.18.3.tar.gz | gtar xz
                             # cd cmake-3.18.3
                             # ./bootstrap
                             # gmake && gmake install
@@ -804,7 +804,7 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
                             # export LD_LIBRARY_PATH=/usr/local/gcc-5.5.0/lib
                             # cd cyb3rhq/src
                             # gmake clean
-                            # gmake deps TARGET=agent RESOURCES_URL=http://packages.cyb3rhq.com/deps/27
+                            # gmake deps TARGET=agent RESOURCES_URL=http://packages.wazuh.com/deps/27
                             # gmake -j 4 TARGET=agent PREFIX=/var/ossec USE_SELINUX=no
                             USE_BIG_ENDIAN=yes
                             # cd ..
@@ -927,7 +927,7 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
 
                         .. code-block:: console
 
-                            # curl -O https://packages.cyb3rhq.com/utils/gcc/gcc-5.5.0.tar.gz && gtar xzf gcc-5.5.0.tar.gz
+                            # curl -O https://packages.wazuh.com/utils/gcc/gcc-5.5.0.tar.gz && gtar xzf gcc-5.5.0.tar.gz
                             # ln -sf gcc-5.5.0 gcc
                             # cd gcc && ./contrib/download_prerequisites
                             # cd .. && mkdir -p gcc-build && cd gcc-build
@@ -947,7 +947,7 @@ The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi
 
                         .. code-block:: console
 
-                            # curl -O -L https://packages.cyb3rhq.com/utils/cmake/cmake-3.18.3.tar.gz && gtar xzf cmake-3.18.3.tar.gz && ln -sf cmake-3.18.3 cmake
+                            # curl -O -L https://packages.wazuh.com/utils/cmake/cmake-3.18.3.tar.gz && gtar xzf cmake-3.18.3.tar.gz && ln -sf cmake-3.18.3 cmake
                             # cd cmake && ./bootstrap
                             # gmake
                             # gmake install

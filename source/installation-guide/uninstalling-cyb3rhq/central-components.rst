@@ -6,7 +6,7 @@
 Uninstalling the Cyb3rhq central components
 =========================================
 
-You can uninstall all the Cyb3rhq central components using the `Cyb3rhq installation assistant <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh>`_.
+You can uninstall all the Cyb3rhq central components using the `Cyb3rhq installation assistant <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh>`_.
 
 Run the assistant with the option ``-u`` or ``--uninstall`` as follows:
 

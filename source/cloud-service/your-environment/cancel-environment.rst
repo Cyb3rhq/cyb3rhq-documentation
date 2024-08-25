@@ -10,7 +10,7 @@ Cancellation
 
 To cancel your environment:
 
-  1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_.
+  1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_.
   2. Go to the **Environments** page and select your environment.
   3. Click **Cancel environment** to confirm this action.
    

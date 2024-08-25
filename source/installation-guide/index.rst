@@ -13,7 +13,7 @@ Cyb3rhq is a security platform that provides unified XDR and SIEM protection for
 
 Cyb3rhq is free and open source. Its components abide by the `GNU General Public License, version 2 <https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html>`_, and the `Apache License, Version 2.0 <https://www.apache.org/licenses/LICENSE-2.0>`_ (ALv2). 
 
-In this installation guide, you will learn how to install Cyb3rhq in your infrastructure. We also offer `Cyb3rhq Cloud <https://cyb3rhq.com/cloud/>`_, our software as a service (SaaS) solution. Cyb3rhq cloud is ready to use, with no additional hardware or software required, driving down the cost and complexity. Check the :doc:`Cloud service </cloud-service/index>` documentation for more information and take advantage of the `Cloud trial <https://console.cloud.cyb3rhq.com/sign-up?landing=trial>`_ to explore this service.
+In this installation guide, you will learn how to install Cyb3rhq in your infrastructure. We also offer `Cyb3rhq Cloud <https://cyb3rhq.github.io/cloud/>`_, our software as a service (SaaS) solution. Cyb3rhq cloud is ready to use, with no additional hardware or software required, driving down the cost and complexity. Check the :doc:`Cloud service </cloud-service/index>` documentation for more information and take advantage of the `Cloud trial <https://console.cloud.cyb3rhq.github.io/sign-up?landing=trial>`_ to explore this service.
 
 
 Installing the Cyb3rhq central components

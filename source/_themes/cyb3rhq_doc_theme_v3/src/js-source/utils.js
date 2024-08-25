@@ -153,7 +153,7 @@ const newTabNodes = [
 
 /* Open external links in a new tab ========================================= */
 
-let oursHost = ['documentation.cyb3rhq.com'];
+let oursHost = ['cyb3rhq.github.io/documentation'];
 
 $('a.reference.external').each(function() {
   let link = new URL(this.href);

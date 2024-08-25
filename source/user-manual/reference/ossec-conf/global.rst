@@ -593,9 +593,9 @@ Configuration example
      <logall>no</logall>
      <logall_json>no</logall_json>
      <email_notification>no</email_notification>
-     <smtp_server>smtp.example.cyb3rhq.com</smtp_server>
-     <email_from>cyb3rhq@example.cyb3rhq.com</email_from>
-     <email_to>recipient@example.cyb3rhq.com</email_to>
+     <smtp_server>smtp.example.cyb3rhq.github.io</smtp_server>
+     <email_from>cyb3rhq@example.cyb3rhq.github.io</email_from>
+     <email_to>recipient@example.cyb3rhq.github.io</email_to>
      <email_maxperhour>12</email_maxperhour>
      <email_log_source>alerts.log</email_log_source>
      <agents_disconnection_time>10m</agents_disconnection_time>

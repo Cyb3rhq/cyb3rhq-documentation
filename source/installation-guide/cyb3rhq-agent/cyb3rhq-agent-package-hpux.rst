@@ -10,7 +10,7 @@ The installed agent runs on the endpoint you want to monitor and communicates wi
 
 .. note:: You need root user privileges to run all the commands described below.
 
-#. To start the installation process, download the `HP-UX installer <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_HPUX|/hp-ux/cyb3rhq-agent-|CYB3RHQ_CURRENT_HPUX|-|CYB3RHQ_REVISION_HPUX|-hpux-11v3-ia64.tar.gz>`_.
+#. To start the installation process, download the `HP-UX installer <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_HPUX|/hp-ux/cyb3rhq-agent-|CYB3RHQ_CURRENT_HPUX|-|CYB3RHQ_REVISION_HPUX|-hpux-11v3-ia64.tar.gz>`_.
 
 #. Create the ``cyb3rhq`` user and group.
 

@@ -33,7 +33,7 @@ This version includes new features or improvements, such as the following:
 Manager
 ^^^^^^^
 
--  `#18142 <https://github.com/cyb3rhq/cyb3rhq/pull/18142>`_ Vulnerability Detector now fetches the RHEL 5 feed URL from *https://feed.cyb3rhq.com* by default.
+-  `#18142 <https://github.com/cyb3rhq/cyb3rhq/pull/18142>`_ Vulnerability Detector now fetches the RHEL 5 feed URL from *https://feed.cyb3rhq.github.io* by default.
 -  `#16846 <https://github.com/cyb3rhq/cyb3rhq/pull/16846>`_ The Vulnerability Detector CPE helper has been updated.
 
 Agent

@@ -46,7 +46,7 @@ These are the most relevant changes in the Cyb3rhq core:
 Cyb3rhq app for Splunk
 --------------------
 
-New section describing the installation process for the `Cyb3rhq app for Splunk <https://documentation.cyb3rhq.com/3.13/installation-guide/installing-splunk/index.html>`_.
+New section describing the installation process for the `Cyb3rhq app for Splunk <https://cyb3rhq.github.io/documentation/3.13/installation-guide/installing-splunk/index.html>`_.
 
 Cyb3rhq app for Kibana
 --------------------

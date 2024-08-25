@@ -77,7 +77,7 @@ Installing Cyb3rhq
 
     .. code-block:: console
 
-        $ curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh && sudo bash ./cyb3rhq-install.sh -a --install-dependencies
+        $ curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh && sudo bash ./cyb3rhq-install.sh -a --install-dependencies
 
 
     Once the assistant finishes the installation, the output shows the access credentials and a message that confirms that the installation was successful.

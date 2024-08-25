@@ -28,7 +28,7 @@ The Cyb3rhq solution is composed of three :doc:`central platform components <com
 Cyb3rhq Cloud
 -----------
 
-The `Cyb3rhq Cloud <https://cyb3rhq.com/cloud/>`_ is our software as a service (SaaS) solution. We provide a `14-day free trial <https://console.cloud.cyb3rhq.com/sign-up?landing=trial>`_ for you to create a cloud environment and get the best out of our SaaS solution. Check the :doc:`Cloud service </cloud-service/index>` documentation for more information.
+The `Cyb3rhq Cloud <https://cyb3rhq.github.io/cloud/>`_ is our software as a service (SaaS) solution. We provide a `14-day free trial <https://console.cloud.cyb3rhq.github.io/sign-up?landing=trial>`_ for you to create a cloud environment and get the best out of our SaaS solution. Check the :doc:`Cloud service </cloud-service/index>` documentation for more information.
 
 Screenshots
 -----------

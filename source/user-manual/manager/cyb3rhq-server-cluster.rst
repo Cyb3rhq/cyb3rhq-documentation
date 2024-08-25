@@ -200,7 +200,7 @@ You can deploy certificates using two methods:
 Using the ``cyb3rhq-certs-tool.sh`` script (default method)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The ``cyb3rhq-certs-tool.sh`` script simplifies certificate generation for Cyb3rhq central components and creates all the certificates required for installation. You need to create or edit the configuration file ``config.yml``. This file references the node details like node types and IP addresses or DNS names which are used to generate certificates for each of the nodes specified in it. A template could be downloaded from our `repository <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/config.yml>`__. These certificates are created with the following additional information:
+The ``cyb3rhq-certs-tool.sh`` script simplifies certificate generation for Cyb3rhq central components and creates all the certificates required for installation. You need to create or edit the configuration file ``config.yml``. This file references the node details like node types and IP addresses or DNS names which are used to generate certificates for each of the nodes specified in it. A template could be downloaded from our `repository <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/config.yml>`__. These certificates are created with the following additional information:
 
 -  ``C``: US
 -  ``L``: California
@@ -213,11 +213,11 @@ Generating Cyb3rhq server certificates
 
 Follow the steps below to create Cyb3rhq server certificates using the ``cyb3rhq-certs-tool.sh`` script:
 
-#. Run the command below to download the `cyb3rhq-certs-tool.sh <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh>`__ script in your installation directory:
+#. Run the command below to download the `cyb3rhq-certs-tool.sh <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh>`__ script in your installation directory:
 
    .. code-block:: console
 
-      # wget https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
+      # wget https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
 
 #. Create a ``config.yml`` file with the following content. We specify only the details regarding the Cyb3rhq server nodes as we are focusing on creating certificates for the Cyb3rhq server. These certificates will be used to integrate the Cyb3rhq server with Filebeat for secure data transmission.
 
@@ -405,7 +405,7 @@ We generate new certificates for the Cyb3rhq components in an all-in-one deploym
 
    .. code-block:: console
 
-      # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
+      # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
       # bash cyb3rhq-certs-tool.sh -A
 
    .. code-block:: none
@@ -477,7 +477,7 @@ Perform the steps below on your existing Cyb3rhq server node to generate the cer
 
    .. code-block:: console
 
-      # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
+      # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
       # bash cyb3rhq-certs-tool.sh -A cyb3rhq-install-files/root-ca.pem cyb3rhq-install-files/root-ca.key
 
    .. code-block:: none
@@ -540,7 +540,7 @@ You can follow the steps below to generate fresh certificates if the pre-existin
 
    .. code-block:: console
 
-      # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
+      # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
       # bash cyb3rhq-certs-tool.sh -A
 
 #. Compress the certificates folder and copy it to the new Cyb3rhq indexer node(s). You can make use of the ``scp`` utility to securely copy the compressed file:
@@ -938,13 +938,13 @@ Adding the Cyb3rhq repository
 
          .. code-block:: console
 
-            # rpm --import https://packages.cyb3rhq.com/key/GPG-KEY-CYB3RHQ
+            # rpm --import https://packages.wazuh.com/key/GPG-KEY-CYB3RHQ
 
       #. Add the repository:
 
          .. code-block:: console
 
-            # echo -e '[cyb3rhq]\ngpgcheck=1\ngpgkey=https://packages.cyb3rhq.com/key/GPG-KEY-CYB3RHQ\nenabled=1\nname=EL-$releasever - Cyb3rhq\nbaseurl=https://packages.cyb3rhq.com/4.x/yum/\nprotect=1' | tee /etc/yum.repos.d/cyb3rhq.repo
+            # echo -e '[cyb3rhq]\ngpgcheck=1\ngpgkey=https://packages.wazuh.com/key/GPG-KEY-CYB3RHQ\nenabled=1\nname=EL-$releasever - Cyb3rhq\nbaseurl=https://packages.wazuh.com/4.x/yum/\nprotect=1' | tee /etc/yum.repos.d/cyb3rhq.repo
 
    .. group-tab:: APT
 
@@ -958,13 +958,13 @@ Adding the Cyb3rhq repository
 
          .. code-block:: console
 
-            # curl -s https://packages.cyb3rhq.com/key/GPG-KEY-CYB3RHQ | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/cyb3rhq.gpg --import && chmod 644 /usr/share/keyrings/cyb3rhq.gpg
+            # curl -s https://packages.wazuh.com/key/GPG-KEY-CYB3RHQ | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/cyb3rhq.gpg --import && chmod 644 /usr/share/keyrings/cyb3rhq.gpg
 
       #. Add the repository:
 
          .. code-block:: console
 
-            # echo "deb [signed-by=/usr/share/keyrings/cyb3rhq.gpg] https://packages.cyb3rhq.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/cyb3rhq.list
+            # echo "deb [signed-by=/usr/share/keyrings/cyb3rhq.gpg] https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/cyb3rhq.list
 
       #. Update the packages information:
 
@@ -1058,7 +1058,7 @@ Install and configure Filebeat
 
    .. code-block:: console
 
-      # curl -so /etc/filebeat/filebeat.yml https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/tpl/cyb3rhq/filebeat/filebeat.yml
+      # curl -so /etc/filebeat/filebeat.yml https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/tpl/cyb3rhq/filebeat/filebeat.yml
 
 #. Edit the ``/etc/filebeat/filebeat.yml`` configuration file and replace the following value:
 
@@ -1104,7 +1104,7 @@ Install and configure Filebeat
 
    .. code-block:: console
 
-      # curl -s https://packages.cyb3rhq.com/4.x/filebeat/cyb3rhq-filebeat-0.4.tar.gz | tar -xvz -C /usr/share/filebeat/module
+      # curl -s https://packages.wazuh.com/4.x/filebeat/cyb3rhq-filebeat-0.4.tar.gz | tar -xvz -C /usr/share/filebeat/module
 
 Deploying certificates
 ~~~~~~~~~~~~~~~~~~~~~~

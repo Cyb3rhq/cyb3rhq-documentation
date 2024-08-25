@@ -42,7 +42,7 @@ Index
   Learn how to install Docker for Mac, Windows, or Linux and explore our developer tools.
   </div>
   <div class="index-card-footer">
-  <a class="nav-link wzh-btn-bg-gradient-yellow" href="https://cyb3rhq.com/install/" target="_blank" rel="noreferrer noopener">Install Cyb3rhq</a>
+  <a class="nav-link wzh-btn-bg-gradient-yellow" href="https://cyb3rhq.github.io/install/" target="_blank" rel="noreferrer noopener">Install Cyb3rhq</a>
   </div>
   </div>
   </aside>

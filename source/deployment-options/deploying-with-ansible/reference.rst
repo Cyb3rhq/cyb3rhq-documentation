@@ -120,11 +120,11 @@ Cyb3rhq Manager
 |
 | **Variable**: ``cyb3rhq_manager_email_smtp_server``
 | **Description**: Configures the :doc:`smtp_server </user-manual/reference/ossec-conf/global>` section in ``ossec.conf``.
-| **Default value**: ``smtp.example.cyb3rhq.com``
+| **Default value**: ``smtp.example.cyb3rhq.github.io``
 |
 | **Variable**: ``cyb3rhq_manager_email_from``
 | **Description**: Configures the :doc:`email_from </user-manual/reference/ossec-conf/global>` section in ``ossec.conf``.
-| **Default value**: ``cyb3rhq@example.cyb3rhq.com``
+| **Default value**: ``cyb3rhq@example.cyb3rhq.github.io``
 |
 | **Variable**: ``cyb3rhq_manager_email_maxperhour``
 | **Description**: Configures the :doc:`email_maxperhour </user-manual/reference/ossec-conf/global>` section in ``ossec.conf``.
@@ -170,7 +170,7 @@ Cyb3rhq Manager
 
     cyb3rhq_manager_extra_emails:
       - enable: false
-        mail_to: 'recipient@example.cyb3rhq.com'
+        mail_to: 'recipient@example.cyb3rhq.github.io'
         format: full
         level: 7
         event_location: null
@@ -203,7 +203,7 @@ Cyb3rhq Manager
       - enable: false
         category: 'syscheck'
         title: 'Daily report: File changes'
-        email_to: 'recipient@example.cyb3rhq.com'
+        email_to: 'recipient@example.cyb3rhq.github.io'
         location: null
         group: null
         rule: null

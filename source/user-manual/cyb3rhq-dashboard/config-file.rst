@@ -48,7 +48,7 @@ This is an example of a multi-host configuration:
 
     hosts:
         - cyb3rhq_prod:
-            url: https://cyb3rhq.com
+            url: https://cyb3rhq.github.io
             port: 55000
             username: cyb3rhq-wui
             password: secret_password

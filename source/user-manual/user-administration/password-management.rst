@@ -30,7 +30,7 @@ The passwords tool is embedded in the Cyb3rhq indexer under ``/usr/share/cyb3rhq
 
   .. code-block:: console
 
-    # curl -so cyb3rhq-passwords-tool.sh https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-passwords-tool.sh
+    # curl -so cyb3rhq-passwords-tool.sh https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-passwords-tool.sh
 
 
 All the available options to run the script are:
@@ -225,7 +225,7 @@ Follow the instructions below to change the passwords for all Cyb3rhq indexer us
 
    .. code-block:: console
 
-      # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-passwords-tool.sh
+      # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-passwords-tool.sh
       # bash cyb3rhq-passwords-tool.sh --api --change-all --admin-user cyb3rhq --admin-password <CYB3RHQ_PASSWORD>
   
    .. code-block:: console
@@ -255,7 +255,7 @@ Follow the instructions below to change the passwords for all Cyb3rhq indexer us
 
    .. code-block:: console
 
-      # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-passwords-tool.sh
+      # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-passwords-tool.sh
       # bash cyb3rhq-passwords-tool.sh --user kibanaserver --password <KIBANASERVER_PASSWORD>
    
    .. code-block:: console

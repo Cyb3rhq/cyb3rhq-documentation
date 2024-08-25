@@ -15,7 +15,7 @@ Sign up
 
 To sign up for a free trial, do the following.
 
-#. Go to our Cyb3rhq Cloud Console `Login <https://console.cloud.cyb3rhq.com/>`_ page.
+#. Go to our Cyb3rhq Cloud Console `Login <https://console.cloud.cyb3rhq.github.io/>`_ page.
 
 #. Fill in the required information and click the **Create account** button.
 
@@ -28,7 +28,7 @@ Create environment
 
 Follow these steps to quickly set up and run your environment:
 
-#. From the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_, click the **Start your free trial** button.
+#. From the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_, click the **Start your free trial** button.
 
 #. Configure your environment:
 

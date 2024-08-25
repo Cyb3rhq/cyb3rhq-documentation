@@ -335,4 +335,4 @@ You are recommended to follow the instructions below when creating an integratio
 
 We recommend that you check the file ``/logs/alerts/alerts.json`` before starting the development of the integration script to find the format of the alerts to be interpreted.
 
-You can see the example integration script for Jira in the `How to integrate external software using Integrator <https://cyb3rhq.com/blog/how-to-integrate-external-software-using-integrator/>`__ blog post.
+You can see the example integration script for Jira in the `How to integrate external software using Integrator <https://cyb3rhq.github.io/blog/how-to-integrate-external-software-using-integrator/>`__ blog post.

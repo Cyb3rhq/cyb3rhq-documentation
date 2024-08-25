@@ -78,7 +78,7 @@ Cyb3rhq offers out-of-the-box detection rules that are mapped against relevant M
 
 For this example, we require the following infrastructure:
 
-.. |CYB3RHQ_OVA| replace:: `Cyb3rhq OVA <https://packages.cyb3rhq.com/4.x/vm/cyb3rhq-|CYB3RHQ_CURRENT|.ova>`__
+.. |CYB3RHQ_OVA| replace:: `Cyb3rhq OVA <https://packages.wazuh.com/4.x/vm/cyb3rhq-|CYB3RHQ_CURRENT|.ova>`__
 
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Endpoint         | Example description                                                                                                                                                                                                                  |
@@ -126,7 +126,7 @@ Windows 11
 
 Perform the following steps to configure the Cyb3rhq agent to capture Sysmon logs and send them to the Cyb3rhq server for analysis.
 
-#. Download `Sysmon <https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon>`__ and the configuration file `sysmonconfig.xml <https://cyb3rhq.com/resources/blog/emulation-of-attack-techniques-and-detection-with-cyb3rhq/sysmonconfig.xml>`__.
+#. Download `Sysmon <https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon>`__ and the configuration file `sysmonconfig.xml <https://cyb3rhq.github.io/resources/blog/emulation-of-attack-techniques-and-detection-with-cyb3rhq/sysmonconfig.xml>`__.
 #. Launch PowerShell with administrative privilege, and install Sysmon as follows:
 
    .. code-block:: powershell

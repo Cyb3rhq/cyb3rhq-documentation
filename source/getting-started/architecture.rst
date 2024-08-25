@@ -32,7 +32,7 @@ The Cyb3rhq messages protocol uses AES encryption by default, with 128 bits per 
 
 .. note::
    
-   Read the `Benefits of using AES in the Cyb3rhq communications <https://cyb3rhq.com/blog/benefits-of-using-aes-in-our-communications>`_ document for more information.
+   Read the `Benefits of using AES in the Cyb3rhq communications <https://cyb3rhq.github.io/blog/benefits-of-using-aes-in-our-communications>`_ document for more information.
 
 Cyb3rhq server - Cyb3rhq indexer communication
 ------------------------------------------

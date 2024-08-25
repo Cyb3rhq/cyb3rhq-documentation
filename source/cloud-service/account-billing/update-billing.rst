@@ -16,7 +16,7 @@ You can specify billing and operational contacts in addition to the primary emai
 
 To update billing and operational contacts:
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_.
 
 2. Go to the **Account** section and select **Contacts**.
 

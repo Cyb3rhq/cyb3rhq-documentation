@@ -215,7 +215,7 @@ Configuring Filebeat
 
    .. code-block:: console
 
-      # curl -s https://packages.cyb3rhq.com/4.x/filebeat/cyb3rhq-filebeat-0.4.tar.gz | sudo tar -xvz -C /usr/share/filebeat/module
+      # curl -s https://packages.wazuh.com/4.x/filebeat/cyb3rhq-filebeat-0.4.tar.gz | sudo tar -xvz -C /usr/share/filebeat/module
 
 #. Download the alerts template:
 

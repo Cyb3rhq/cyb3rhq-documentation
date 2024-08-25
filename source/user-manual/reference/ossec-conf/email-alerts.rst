@@ -157,8 +157,8 @@ Example of configuration
 .. code-block:: xml
 
 	<email_alerts>
-		<email_to>recipient@example.cyb3rhq.com</email_to>
-		<email_to>recipient2@example.cyb3rhq.com</email_to>
+		<email_to>recipient@example.cyb3rhq.github.io</email_to>
+		<email_to>recipient2@example.cyb3rhq.github.io</email_to>
 		<level>12</level>
 		<group>sshd,</group>
 		<do_not_delay/>

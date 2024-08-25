@@ -57,7 +57,7 @@ Cyb3rhq is now compatible with Elastic Stack 7, which includes, between others, 
 
 Additionally, since this Cyb3rhq release, Logstash is no longer required, Filebeat will send the events directly to Elasticsearch server.
 
-- `Upgrading to Elastic Stack 7.1 <https://documentation.cyb3rhq.com/3.9/upgrade-guide/upgrading-elastic-stack/elastic_server_rolling_upgrade.html>`__
+- `Upgrading to Elastic Stack 7.1 <https://cyb3rhq.github.io/documentation/3.9/upgrade-guide/upgrading-elastic-stack/elastic_server_rolling_upgrade.html>`__
 - `Elastic Stack 7.0.0 release blogpost <https://www.elastic.co/blog/elastic-stack-7-0-0-released>`_
 
 

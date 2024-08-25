@@ -15,7 +15,7 @@ Cyb3rhq server cluster installation
 
    .. code-block:: console
    
-       # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
+       # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
 
 #. Run the Cyb3rhq installation assistant with the option ``--cyb3rhq-server`` followed by the node name to install the Cyb3rhq server. The node name must be the same one used in ``config.yml`` for the initial configuration, for example, ``cyb3rhq-1``. The Cyb3rhq installation assistant requires dependencies like ``openssl`` and ``lsof`` to work. To install them automatically, add the ``--install-dependencies`` option to the command.
  

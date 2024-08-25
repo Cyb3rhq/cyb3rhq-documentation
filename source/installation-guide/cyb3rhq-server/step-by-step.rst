@@ -100,7 +100,7 @@ Configuring Filebeat
 
       .. code-block:: console
 
-        # curl -so /etc/filebeat/filebeat.yml https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/tpl/cyb3rhq/filebeat/filebeat.yml
+        # curl -so /etc/filebeat/filebeat.yml https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/tpl/cyb3rhq/filebeat/filebeat.yml
 
 
   #. Edit the ``/etc/filebeat/filebeat.yml`` configuration file and replace the following value:
@@ -131,7 +131,7 @@ Configuring Filebeat
 
       .. code-block:: console
 
-        # curl -s https://packages.cyb3rhq.com/4.x/filebeat/cyb3rhq-filebeat-0.4.tar.gz | tar -xvz -C /usr/share/filebeat/module
+        # curl -s https://packages.wazuh.com/4.x/filebeat/cyb3rhq-filebeat-0.4.tar.gz | tar -xvz -C /usr/share/filebeat/module
 
 Deploying certificates
 ^^^^^^^^^^^^^^^^^^^^^^

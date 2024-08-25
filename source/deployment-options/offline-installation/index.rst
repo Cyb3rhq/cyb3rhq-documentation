@@ -30,7 +30,7 @@ Download the packages and configuration files
 
             .. code-block:: console
         
-               # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
+               # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
                # chmod 744 cyb3rhq-install.sh
                # ./cyb3rhq-install.sh -dw rpm
 
@@ -38,7 +38,7 @@ Download the packages and configuration files
 
             .. code-block:: console
         
-               # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
+               # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
                # chmod 744 cyb3rhq-install.sh
                # ./cyb3rhq-install.sh -dw deb
           
@@ -46,7 +46,7 @@ Download the packages and configuration files
 
       .. code-block:: console
         
-         # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/config.yml
+         # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/config.yml
 
 #. Edit ``config.yml`` to prepare the certificates creation.
 

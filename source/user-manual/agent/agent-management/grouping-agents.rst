@@ -10,7 +10,7 @@ There are two methods for configuring enrolled Cyb3rhq agents. They can either b
 
 .. note::
 
-   Refer to the `agent groups and centralized configuration <https://cyb3rhq.com/blog/agent-groups-and-centralized-configuration//>`__ document for more information.
+   Refer to the `agent groups and centralized configuration <https://cyb3rhq.github.io/blog/agent-groups-and-centralized-configuration//>`__ document for more information.
 
 Unless otherwise assigned, all newly connected Cyb3rhq agents automatically belong to the *'default'* group. This group is created during the installation process with the configuration files placed in the ``/var/ossec/etc/shared/default/`` folder on the Cyb3rhq server. These files will be pushed from the Cyb3rhq manager to all Cyb3rhq agents belonging to this group.
 

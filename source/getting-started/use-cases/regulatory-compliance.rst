@@ -33,7 +33,7 @@ PCI DSS
 
 PCI DSS (Payment Card Industry Data Security Standard) outlines the security criteria that businesses that process, store, and transmit card data must adhere to. This standard is designed to tighten security measures surrounding cardholder data and lessen fraud within the payment card industry.
 
-Payment card industries can leverage Cyb3rhq capabilities to reinforce PCI DSS adherence. Users can customize these capabilities to align with specific business needs as stipulated by the standard. For example, you can use `Cyb3rhq to conduct a PAN scan <https://cyb3rhq.com/blog/conducting-primary-account-number-scan-with-cyb3rhq/>`__ by creating customs rules that detect the presence of an unmasked Primary Account Number(PAN).
+Payment card industries can leverage Cyb3rhq capabilities to reinforce PCI DSS adherence. Users can customize these capabilities to align with specific business needs as stipulated by the standard. For example, you can use `Cyb3rhq to conduct a PAN scan <https://cyb3rhq.github.io/blog/conducting-primary-account-number-scan-with-cyb3rhq/>`__ by creating customs rules that detect the presence of an unmasked Primary Account Number(PAN).
 
 .. thumbnail:: /images/getting-started/use-cases/regulatory-compliance/unmasked-pan-alert.png
    :title: Alert of unmasked Primary Account Number (PAN)

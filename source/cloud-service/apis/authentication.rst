@@ -15,7 +15,7 @@ Cyb3rhq Cloud supports only API key-based authentication.
 
 To obtain an API key:
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_.
 
 2. Go to the **Account** section and select **API Keys**.
   
@@ -31,7 +31,7 @@ To obtain an API key:
 
 To revoke an API key:
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_.
 
 2. Go to the **Account** section and select **API Keys**.
 

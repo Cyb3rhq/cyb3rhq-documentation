@@ -4,7 +4,7 @@
 
     .. code-block:: console
 
-      # rpm --import https://packages.cyb3rhq.com/key/GPG-KEY-CYB3RHQ
+      # rpm --import https://packages.wazuh.com/key/GPG-KEY-CYB3RHQ
 
 #. Add the repository:
 
@@ -13,10 +13,10 @@
       # cat > /etc/zypp/repos.d/cyb3rhq.repo <<\EOF
       [cyb3rhq]
       gpgcheck=1
-      gpgkey=https://packages.cyb3rhq.com/key/GPG-KEY-CYB3RHQ
+      gpgkey=https://packages.wazuh.com/key/GPG-KEY-CYB3RHQ
       enabled=1
       name=EL-$releasever - Cyb3rhq
-      baseurl=https://packages.cyb3rhq.com/4.x/yum/
+      baseurl=https://packages.wazuh.com/4.x/yum/
       protect=1
       EOF 
 

@@ -10,7 +10,7 @@ The agent runs on the endpoint you want to monitor and communicates with the Cyb
 
 .. note:: To perform the installation, administrator privileges are required.
 
-#. To start the installation process, download the `Windows installer <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_WINDOWS|/windows/cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi>`_. 
+#. To start the installation process, download the `Windows installer <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_WINDOWS|/windows/cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi>`_. 
 
 #. Select the installation method you want to follow: command line interface (CLI) or graphical user interface (GUI).
 

@@ -76,7 +76,7 @@ We recommend creating entirely new certificates for your Cyb3rhq server nodes. P
 
    .. code-block:: console
 
-      # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
+      # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
       # bash cyb3rhq-certs-tool.sh -A
 
 #. Compress the certificates folder and copy it to the new Cyb3rhq server node(s). You can make use of the ``scp`` utility to securely copy the compressed file:
@@ -125,7 +125,7 @@ We recommend you utilize pre-existing root-ca keys to generate certificates for 
 
    .. code-block:: console
 
-      # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
+      # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
       # bash cyb3rhq-certs-tool.sh -A cyb3rhq-install-files/root-ca.pem cyb3rhq-install-files/root-ca.key
 
 #. Copy the newly created certificates to the ``cyb3rhq-install-files`` folder making sure not to replace the admin certificates:
@@ -170,7 +170,7 @@ We recommend you utilize pre-existing root-ca keys to generate certificates for 
 
          .. code-block:: console
 
-            # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
+            # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
             # bash cyb3rhq-certs-tool.sh -A
 
       -  Compress the certificates folder and copy it to the new Cyb3rhq indexer node(s). You can make use of the ``scp`` utility to securely copy the compressed file:
@@ -625,7 +625,7 @@ Install and configure Filebeat
 
    .. code-block:: console
 
-      # curl -so /etc/filebeat/filebeat.yml https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/tpl/cyb3rhq/filebeat/filebeat.yml
+      # curl -so /etc/filebeat/filebeat.yml https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/tpl/cyb3rhq/filebeat/filebeat.yml
 
 #. Edit the ``/etc/filebeat/filebeat.yml`` configuration file and replace the following value:
 
@@ -671,7 +671,7 @@ Install and configure Filebeat
 
    .. code-block:: console
 
-      # curl -s https://packages.cyb3rhq.com/4.x/filebeat/cyb3rhq-filebeat-0.2.tar.gz | tar -xvz -C /usr/share/filebeat/module
+      # curl -s https://packages.wazuh.com/4.x/filebeat/cyb3rhq-filebeat-0.2.tar.gz | tar -xvz -C /usr/share/filebeat/module
 
 Deploying certificates
 ^^^^^^^^^^^^^^^^^^^^^^

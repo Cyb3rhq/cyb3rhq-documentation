@@ -10,8 +10,8 @@ The agent runs on the endpoint you want to monitor and communicates with the Cyb
 
 .. note:: You need root user privileges to run all the commands described below.
 
-.. |macOS_intel_64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg>`__
-.. |macOS_arm64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg>`__
+.. |macOS_intel_64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg>`__
+.. |macOS_arm64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg>`__
 
 
 #. To start the installation process, download the Cyb3rhq agent according to your architecture:

@@ -15,7 +15,7 @@ Viewing environment usage metrics
 
 To see metrics of your Cyb3rhq Cloud environment, follow these steps:
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_.
 2. Go to the **Environments** page and select your specific environment.
 3. Click on the **Metrics** tab.
    

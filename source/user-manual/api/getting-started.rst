@@ -387,8 +387,8 @@ Example response with errors (HTTP status code 200):
              "code": 1707,
              "message": "Cannot send request, agent is not active",
              "remediation": "Please, check non-active agents connection and try again. Visit
-             https://documentation.cyb3rhq.com/current/user-manual/registering/index.html and
-             https://documentation.cyb3rhq.com/current/user-manual/agents/agent-connection.html
+             https://cyb3rhq.github.io/documentation/current/user-manual/registering/index.html and
+             https://cyb3rhq.github.io/documentation/current/user-manual/agents/agent-connection.html
              to obtain more information on registering and connecting agents"
            },
            "id": [
@@ -459,7 +459,7 @@ Example response to report a permission denied error (HTTP status code 403):
    {
      "title": "Permission Denied",
      "detail": "Permission denied: Resource type: *:*",
-     "remediation": "Please, make sure you have permissions to execute the current request. For more information on how to set up permissions, please visit https://documentation.cyb3rhq.com/current/user-manual/api/rbac/configuration.html",
+     "remediation": "Please, make sure you have permissions to execute the current request. For more information on how to set up permissions, please visit https://cyb3rhq.github.io/documentation/current/user-manual/api/rbac/configuration.html",
      "error": 4000,
      "dapi_errors": {
        "unknown-node": {

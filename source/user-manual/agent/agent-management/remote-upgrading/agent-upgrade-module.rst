@@ -63,7 +63,7 @@ The module expects three parameters:
           "command": "upgrade",
           "parameters": {
               "agents": [5,6],
-              "wpk_repo": "packages.cyb3rhq.com/wpk/",
+              "wpk_repo": "packages.wazuh.com/wpk/",
               "version": "v4.2.1",
               "use_http": false,
               "force_upgrade": false,

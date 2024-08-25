@@ -34,8 +34,8 @@ Generating the SSL certificates
 
    .. code-block:: console
 
-    # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
-    # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/config.yml
+    # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh
+    # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/config.yml
 
 #. Edit ``./config.yml`` and replace the node names and IP values with the corresponding names and IP addresses. You need to do this for all Cyb3rhq server, Cyb3rhq indexer, and Cyb3rhq dashboard nodes. Add as many node fields as needed.
 

@@ -167,7 +167,7 @@ Sysmon integration
 Perform the steps below to install and configure Sysmon on the Windows 11 endpoint.
 
 #. Download Sysmon from the `Microsoft Sysinternals page <https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon>`__.
-#. Download the Sysmon configuration file: `sysmonconfig.xml <https://cyb3rhq.com/resources/blog/detecting-process-injection-with-cyb3rhq/sysmonconfig.xml>`__.
+#. Download the Sysmon configuration file: `sysmonconfig.xml <https://cyb3rhq.github.io/resources/blog/detecting-process-injection-with-cyb3rhq/sysmonconfig.xml>`__.
 #. Install Sysmon with the downloaded configuration file using PowerShell as an administrator:
 
    .. code-block:: powershell

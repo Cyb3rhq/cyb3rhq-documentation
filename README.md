@@ -1,9 +1,9 @@
 # Cyb3rhq documentation
 
-[![Slack](https://img.shields.io/badge/slack-join-blue.svg)](https://cyb3rhq.com/community/join-us-on-slack/)
+[![Slack](https://img.shields.io/badge/slack-join-blue.svg)](https://cyb3rhq.github.io/community/join-us-on-slack/)
 [![Mailing list](https://img.shields.io/badge/email-join-blue.svg)](https://groups.google.com/forum/#!forum/cyb3rhq)
-[![Documentation](https://img.shields.io/badge/docs-view-green.svg)](https://documentation.cyb3rhq.com/)
-[![Website](https://img.shields.io/badge/web-view-green.svg)](https://cyb3rhq.com/)
+[![Documentation](https://img.shields.io/badge/docs-view-green.svg)](https://cyb3rhq.github.io/documentation/)
+[![Website](https://img.shields.io/badge/web-view-green.svg)](https://cyb3rhq.github.io/)
 
 Cyb3rhq is a free, open source and enterprise-ready security monitoring solution for threat detection, integrity monitoring, incident response and compliance.
 
@@ -11,8 +11,8 @@ The online documentation for this project is available in this repository. Membe
 
 ## Online documentation
 
-- [Current version (4.x)](https://documentation.cyb3rhq.com/current/)
-- [Legacy version (2.1)](https://documentation.cyb3rhq.com/2.1/)
+- [Current version (4.x)](https://cyb3rhq.github.io/documentation/current/)
+- [Legacy version (2.1)](https://cyb3rhq.github.io/documentation/2.1/)
 
 ## Contribute to this project
 

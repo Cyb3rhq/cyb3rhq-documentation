@@ -23,7 +23,7 @@ The Cyb3rhq Cloud SMTP is limited to 100 emails per hour, regardless of the ``em
    <global>
      . . .
      <smtp_server>cyb3rhq-smtp</smtp_server>
-     <email_from>no-reply@cyb3rhq.com</email_from>
+     <email_from>no-reply@cyb3rhq.github.io</email_from>
      ...
    </global>
 

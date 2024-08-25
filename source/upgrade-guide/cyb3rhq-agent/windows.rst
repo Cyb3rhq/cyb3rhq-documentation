@@ -11,7 +11,7 @@ Follow these steps to upgrade Cyb3rhq agents locally on Windows systems. If you 
 
 .. note:: To perform the agent upgrade, administrator privileges are required.
 
-#. Download the latest `Windows installer <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_WINDOWS|/windows/cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi>`_. 
+#. Download the latest `Windows installer <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_WINDOWS|/windows/cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi>`_. 
 
 #. Run the Windows installer by using the command line interface (CLI) or the graphical user interface (GUI).
 

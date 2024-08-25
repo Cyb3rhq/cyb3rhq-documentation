@@ -17,7 +17,7 @@ The deployment of a Cyb3rhq agent on an AIX system uses deployment variables tha
    Required dependencies:
       * bash
 
-#. To start the deployment process, download the `AIX installer <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_AIX|/aix/cyb3rhq-agent-|CYB3RHQ_CURRENT_AIX|-|CYB3RHQ_REVISION_AIX|.aix.ppc.rpm>`_.
+#. To start the deployment process, download the `AIX installer <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_AIX|/aix/cyb3rhq-agent-|CYB3RHQ_CURRENT_AIX|-|CYB3RHQ_REVISION_AIX|.aix.ppc.rpm>`_.
 
 #. To deploy the Cyb3rhq agent to your endpoint, edit the ``CYB3RHQ_MANAGER`` variable so that it contains the Cyb3rhq manager IP address or hostname.
 

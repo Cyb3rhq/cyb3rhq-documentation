@@ -215,7 +215,7 @@ jQuery(function($) {
         tooltip = 'class="disabled" data-toggle="tooltip" data-placement="left" title="This page is not available in version ' + listOfVersions[i] + ((i == 0) ? ' (current)' : '') +'"';
       }
       if ( !hasHttpProtocol && href.length > 0 ) {
-        href = 'https://documentation.cyb3rhq.com' + href;
+        href = 'https://cyb3rhq.github.io/documentation' + href;
       }
       ele += '<li><a href="' + href + '" '+ tooltip +'> Version '+listOfVersions[i] + ((i == 0) ? ' (current)' : '') +'</a></li>';
       if (ver == listOfVersions[0]) {

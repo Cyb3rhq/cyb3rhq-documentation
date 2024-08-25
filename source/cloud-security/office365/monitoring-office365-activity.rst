@@ -590,7 +590,7 @@ When a user logs into the Microsoft Azure AD, the action generates an event. You
                 },
                 {
                   "Type": 5,
-                  "ID": "XXXXXXX@cyb3rhq.com"
+                  "ID": "XXXXXXX@cyb3rhq.github.io"
                 }
               ],
               "DeviceProperties": [
@@ -614,7 +614,7 @@ When a user logs into the Microsoft Azure AD, the action generates an event. You
               "ErrorNumber": "0",
               "ClientIP": "102.244.157.118",
               "Workload": "AzureActiveDirectory",
-              "UserId": "XXXXXXX@cyb3rhq.com",
+              "UserId": "XXXXXXX@cyb3rhq.github.io",
               "TargetContextId": "0fea4e03-8146-453b-b889-54b4bd11565b",
               "CreationTime": "2024-01-29T07:29:21",
               "Id": "aa9ef67e-5237-49e0-9d45-587d8afc1f00",
@@ -795,8 +795,8 @@ Below is a sample alert of the user addition event in JSON format.
          "office365": {
            "AzureActiveDirectoryEventType": "1",
            "ResultStatus": "Success",
-           "ObjectId": "testuser@cyb3rhq.com",
-           "UserKey": "10032002120F5B41@cyb3rhq.com",
+           "ObjectId": "testuser@cyb3rhq.github.io",
+           "UserKey": "10032002120F5B41@cyb3rhq.github.io",
            "Operation": "Add user.",
            "OrganizationId": "0fea4e03-8146-453b-b889-54b4bd11565b",
            "ExtendedProperties": [
@@ -826,7 +826,7 @@ Below is a sample alert of the user addition event in JSON format.
              },
              {
                "Type": 5,
-               "ID": "testuser@cyb3rhq.com"
+               "ID": "testuser@cyb3rhq.github.io"
              },
              {
                "Type": 3,
@@ -868,7 +868,7 @@ Below is a sample alert of the user addition event in JSON format.
              },
              {
                "OldValue": "[]",
-               "NewValue": "[\r\n  \"testuser@cyb3rhq.com\"\r\n]",
+               "NewValue": "[\r\n  \"testuser@cyb3rhq.github.io\"\r\n]",
                "Name": "UserPrincipalName"
              },
              {
@@ -882,12 +882,12 @@ Below is a sample alert of the user addition event in JSON format.
                "Name": "Included Updated Properties"
              }
            ],
-           "UserId": "XXXXXXX@cyb3rhq.com",
+           "UserId": "XXXXXXX@cyb3rhq.github.io",
            "TargetContextId": "0fea4e03-8146-453b-b889-54b4bd11565b",
            "Actor": [
              {
                "Type": 5,
-               "ID": "XXXXXXX@cyb3rhq.com"
+               "ID": "XXXXXXX@cyb3rhq.github.io"
              },
              {
                "Type": 3,

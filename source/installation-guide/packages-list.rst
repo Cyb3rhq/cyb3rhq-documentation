@@ -11,9 +11,9 @@ This download page contains packages required for the Cyb3rhq installation.
 Cyb3rhq indexer
 -------------
 
-.. |IndexerRPM| replace:: `cyb3rhq-indexer-|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|.|CYB3RHQ_INDEXER_x64_RPM|.rpm <https://packages.cyb3rhq.com/4.x/yum/cyb3rhq-indexer-|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|.|CYB3RHQ_INDEXER_x64_RPM|.rpm>`__ (`sha512 <https://packages.cyb3rhq.com/4.x/checksums/cyb3rhq/|CYB3RHQ_CURRENT|/cyb3rhq-indexer-|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|.|CYB3RHQ_INDEXER_x64_RPM|.rpm.sha512>`__)
+.. |IndexerRPM| replace:: `cyb3rhq-indexer-|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|.|CYB3RHQ_INDEXER_x64_RPM|.rpm <https://packages.wazuh.com/4.x/yum/cyb3rhq-indexer-|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|.|CYB3RHQ_INDEXER_x64_RPM|.rpm>`__ (`sha512 <https://packages.wazuh.com/4.x/checksums/cyb3rhq/|CYB3RHQ_CURRENT|/cyb3rhq-indexer-|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|.|CYB3RHQ_INDEXER_x64_RPM|.rpm.sha512>`__)
 
-.. |IndexerDEB| replace:: `cyb3rhq-indexer_|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|_|CYB3RHQ_INDEXER_x64_DEB|.deb <https://packages.cyb3rhq.com/4.x/apt/pool/main/w/cyb3rhq-indexer/cyb3rhq-indexer_|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|_|CYB3RHQ_INDEXER_x64_DEB|.deb>`__ (`sha512 <https://packages.cyb3rhq.com/4.x/checksums/cyb3rhq/|CYB3RHQ_CURRENT|/cyb3rhq-indexer_|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|_|CYB3RHQ_INDEXER_x64_DEB|.deb.sha512>`__)
+.. |IndexerDEB| replace:: `cyb3rhq-indexer_|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|_|CYB3RHQ_INDEXER_x64_DEB|.deb <https://packages.wazuh.com/4.x/apt/pool/main/w/cyb3rhq-indexer/cyb3rhq-indexer_|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|_|CYB3RHQ_INDEXER_x64_DEB|.deb>`__ (`sha512 <https://packages.wazuh.com/4.x/checksums/cyb3rhq/|CYB3RHQ_CURRENT|/cyb3rhq-indexer_|CYB3RHQ_CURRENT|-|CYB3RHQ_INDEXER_CURRENT_REV|_|CYB3RHQ_INDEXER_x64_DEB|.deb.sha512>`__)
 
 +--------------+------------------+
 | Package type | Package          |
@@ -119,17 +119,17 @@ Filebeat
 +--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Package type | Package                                                                                                                                                                                                                                         |
 +==============+=================================================================================================================================================================================================================================================+
-|     RPM      | `filebeat-oss-|ELASTICSEARCH_LATEST|-x86_64.rpm <https://packages.cyb3rhq.com/4.x/yum/filebeat-oss-|ELASTICSEARCH_LATEST|-x86_64.rpm>`_ (`sha512 <https://packages.cyb3rhq.com/4.x/checksums/elasticsearch/|ELASTICSEARCH_LATEST|/filebeat-oss-|ELASTICSEARCH_LATEST|-x86_64.rpm.sha512>`__)                        |
+|     RPM      | `filebeat-oss-|ELASTICSEARCH_LATEST|-x86_64.rpm <https://packages.wazuh.com/4.x/yum/filebeat-oss-|ELASTICSEARCH_LATEST|-x86_64.rpm>`_ (`sha512 <https://packages.wazuh.com/4.x/checksums/elasticsearch/|ELASTICSEARCH_LATEST|/filebeat-oss-|ELASTICSEARCH_LATEST|-x86_64.rpm.sha512>`__)                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|     DEB      | `filebeat-oss-|ELASTICSEARCH_LATEST|-amd64.deb <https://packages.cyb3rhq.com/4.x/apt/pool/main/f/filebeat/filebeat-oss-|ELASTICSEARCH_LATEST|-amd64.deb>`_ (`sha512 <https://packages.cyb3rhq.com/4.x/checksums/elasticsearch/|ELASTICSEARCH_LATEST|/filebeat-oss-|ELASTICSEARCH_LATEST|-amd64.deb.sha512>`__)      |
+|     DEB      | `filebeat-oss-|ELASTICSEARCH_LATEST|-amd64.deb <https://packages.wazuh.com/4.x/apt/pool/main/f/filebeat/filebeat-oss-|ELASTICSEARCH_LATEST|-amd64.deb>`_ (`sha512 <https://packages.wazuh.com/4.x/checksums/elasticsearch/|ELASTICSEARCH_LATEST|/filebeat-oss-|ELASTICSEARCH_LATEST|-amd64.deb.sha512>`__)      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Cyb3rhq dashboard
 ---------------
 
-.. |DashboardRPM| replace:: `cyb3rhq-dashboard-|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_RPM|.|CYB3RHQ_DASHBOARD_x64_RPM|.rpm <https://packages.cyb3rhq.com/4.x/yum/cyb3rhq-dashboard-|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_RPM|.|CYB3RHQ_DASHBOARD_x64_RPM|.rpm>`__ (`sha512 <https://packages.cyb3rhq.com/4.x/checksums/cyb3rhq/|CYB3RHQ_CURRENT|/cyb3rhq-dashboard-|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_RPM|.|CYB3RHQ_DASHBOARD_x64_RPM|.rpm.sha512>`__)
+.. |DashboardRPM| replace:: `cyb3rhq-dashboard-|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_RPM|.|CYB3RHQ_DASHBOARD_x64_RPM|.rpm <https://packages.wazuh.com/4.x/yum/cyb3rhq-dashboard-|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_RPM|.|CYB3RHQ_DASHBOARD_x64_RPM|.rpm>`__ (`sha512 <https://packages.wazuh.com/4.x/checksums/cyb3rhq/|CYB3RHQ_CURRENT|/cyb3rhq-dashboard-|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_RPM|.|CYB3RHQ_DASHBOARD_x64_RPM|.rpm.sha512>`__)
 
-.. |DashboardDEB| replace:: `cyb3rhq-dashboard_|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_DEB|_|CYB3RHQ_DASHBOARD_x64_DEB|.deb <https://packages.cyb3rhq.com/4.x/apt/pool/main/w/cyb3rhq-dashboard/cyb3rhq-dashboard_|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_DEB|_|CYB3RHQ_DASHBOARD_x64_DEB|.deb>`__ (`sha512 <https://packages.cyb3rhq.com/4.x/checksums/cyb3rhq/|CYB3RHQ_CURRENT|/cyb3rhq-dashboard_|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_DEB|_|CYB3RHQ_DASHBOARD_x64_DEB|.deb.sha512>`__)
+.. |DashboardDEB| replace:: `cyb3rhq-dashboard_|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_DEB|_|CYB3RHQ_DASHBOARD_x64_DEB|.deb <https://packages.wazuh.com/4.x/apt/pool/main/w/cyb3rhq-dashboard/cyb3rhq-dashboard_|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_DEB|_|CYB3RHQ_DASHBOARD_x64_DEB|.deb>`__ (`sha512 <https://packages.wazuh.com/4.x/checksums/cyb3rhq/|CYB3RHQ_CURRENT|/cyb3rhq-dashboard_|CYB3RHQ_CURRENT|-|CYB3RHQ_DASHBOARD_CURRENT_REV_DEB|_|CYB3RHQ_DASHBOARD_x64_DEB|.deb.sha512>`__)
 
 +--------------+------------------+
 | Package type | Package          |
@@ -173,9 +173,9 @@ Linux
 
 .. |CentOS6_armhf_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm <|RPM_AGENT_URL|-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm.sha512>`__)
 
-.. |CentOS5_i386_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/i386/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm.sha512>`__)
+.. |CentOS5_i386_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/i386/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm.sha512>`__)
 
-.. |CentOS5_x86_64_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/x86_64/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm.sha512>`__)
+.. |CentOS5_x86_64_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/x86_64/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm.sha512>`__)
 
 .. |Debian7_i386_agent| replace:: `cyb3rhq-agent_|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_DEB_AGENT_I386|_i386.deb <|DEB_AGENT_URL|_|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_DEB_AGENT_I386|_i386.deb>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent_|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_DEB_AGENT_I386|_i386.deb.sha512>`__)
 
@@ -209,9 +209,9 @@ Linux
 
 .. |Oracle6_armhf_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm <|RPM_AGENT_URL|-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm.sha512>`__)
 
-.. |Oracle5_i386_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/i386/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm.sha512>`__)
+.. |Oracle5_i386_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/i386/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm.sha512>`__)
 
-.. |Oracle5_x86_64_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/x86_64/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm.sha512>`__)
+.. |Oracle5_x86_64_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/x86_64/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm.sha512>`__)
 
 .. |RHEL6_i386_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386|.i386.rpm <|RPM_AGENT_URL|-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386|.i386.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386|.i386.rpm.sha512>`__)
 
@@ -221,9 +221,9 @@ Linux
 
 .. |RHEL6_armhf_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm <|RPM_AGENT_URL|-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm.sha512>`__)
 
-.. |RHEL5_i386_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/i386/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm.sha512>`__)
+.. |RHEL5_i386_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/i386/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm.sha512>`__)
 
-.. |RHEL5_x86_64_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/x86_64/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm.sha512>`__)
+.. |RHEL5_x86_64_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/x86_64/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm.sha512>`__)
 
 .. |SUSE12_i386_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386|.i386.rpm <|RPM_AGENT_URL|-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386|.i386.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386|.i386.rpm.sha512>`__)
 
@@ -233,9 +233,9 @@ Linux
 
 .. |SUSE12_armhf_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm <|RPM_AGENT_URL|-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_ARMHF|.armv7hl.rpm.sha512>`__)
 
-.. |SUSE11_i386_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/i386/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm.sha512>`__)
+.. |SUSE11_i386_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/i386/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_I386_EL5|.el5.i386.rpm.sha512>`__)
 
-.. |SUSE11_x86_64_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/x86_64/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm.sha512>`__)
+.. |SUSE11_x86_64_agent| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR|/yum5/x86_64/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent-|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_YUM_AGENT_X86_EL5|.el5.x86_64.rpm.sha512>`__)
 
 .. |Ubuntu12_i386_agent| replace:: `cyb3rhq-agent_|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_DEB_AGENT_I386|_i386.deb <|DEB_AGENT_URL|_|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_DEB_AGENT_I386|_i386.deb>`__ (`sha512 <|CHECKSUMS_URL||CYB3RHQ_CURRENT|/cyb3rhq-agent_|CYB3RHQ_CURRENT|-|CYB3RHQ_REVISION_DEB_AGENT_I386|_i386.deb.sha512>`__)
 
@@ -365,7 +365,7 @@ Linux
 Windows
 ^^^^^^^
 
-.. |WindowsXP_32_64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_WINDOWS|/windows/cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi>`__ (`sha512 <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_WINDOWS|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_WINDOWS|/cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi.sha512>`__)
+.. |WindowsXP_32_64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_WINDOWS|/windows/cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi>`__ (`sha512 <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_WINDOWS|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_WINDOWS|/cyb3rhq-agent-|CYB3RHQ_CURRENT_WINDOWS|-|CYB3RHQ_REVISION_WINDOWS|.msi.sha512>`__)
 
 +-----------------+--------------+---------------------------+
 | Version         | Architecture | Package                   |
@@ -378,8 +378,8 @@ Windows
 macOS
 ^^^^^
 
-.. |macOS_intel_64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg>`__ (`sha512 <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_OSX|/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg.sha512>`__)
-.. |macOS_arm64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg>`__ (`sha512 <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_OSX|/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg.sha512>`__)
+.. |macOS_intel_64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg>`__ (`sha512 <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_OSX|/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg.sha512>`__)
+.. |macOS_arm64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg>`__ (`sha512 <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_OSX|/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg.sha512>`__)
 
 +---------------+-------------------------+
 | Architecture  | Package                 |
@@ -392,13 +392,13 @@ macOS
 Solaris
 ^^^^^^^
 
-.. |Solaris10_i386| replace:: `cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_i386|-sol10-i386.pkg <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_i386|/solaris/i386/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_i386|-sol10-i386.pkg>`__ (`sha512 <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_i386|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_SOLARIS10_i386|/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_i386|-sol10-i386.pkg.sha512>`__)
+.. |Solaris10_i386| replace:: `cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_i386|-sol10-i386.pkg <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_i386|/solaris/i386/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_i386|-sol10-i386.pkg>`__ (`sha512 <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_i386|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_SOLARIS10_i386|/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_i386|-sol10-i386.pkg.sha512>`__)
 
-.. |Solaris10_SPARC| replace:: `cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_SPARC|/solaris/sparc/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg>`__ (`sha512 <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_SPARC|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_SOLARIS10_SPARC|/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg.sha512>`__)
+.. |Solaris10_SPARC| replace:: `cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_SPARC|/solaris/sparc/10/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg>`__ (`sha512 <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS10_SPARC|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_SOLARIS10_SPARC|/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS10_SPARC|-sol10-sparc.pkg.sha512>`__)
 
-.. |Solaris11_i386| replace:: `cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_i386|-sol11-i386.p5p <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_i386|/solaris/i386/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_i386|-sol11-i386.p5p>`__ (`sha512 <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_i386|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_SOLARIS11_i386|/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_i386|-sol11-i386.p5p.sha512>`__)
+.. |Solaris11_i386| replace:: `cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_i386|-sol11-i386.p5p <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_i386|/solaris/i386/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_i386|-sol11-i386.p5p>`__ (`sha512 <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_i386|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_SOLARIS11_i386|/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_i386|-sol11-i386.p5p.sha512>`__)
 
-.. |Solaris11_SPARC| replace:: `cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_SPARC|/solaris/sparc/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p>`__ (`sha512 <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_SPARC|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_SOLARIS11_SPARC|/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p.sha512>`__)
+.. |Solaris11_SPARC| replace:: `cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_SPARC|/solaris/sparc/11/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p>`__ (`sha512 <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_SOLARIS11_SPARC|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_SOLARIS11_SPARC|/cyb3rhq-agent_v|CYB3RHQ_CURRENT_SOLARIS11_SPARC|-sol11-sparc.p5p.sha512>`__)
 
 +---------+--------------+-------------------------+
 | Version | Architecture | Package                 |
@@ -416,7 +416,7 @@ Solaris
 HP-UX
 ^^^^^
 
-.. |HPUX_itanium| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_HPUX|-|CYB3RHQ_REVISION_HPUX|-hpux-11v3-ia64.tar.gz <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_HPUX|/hp-ux/cyb3rhq-agent-|CYB3RHQ_CURRENT_HPUX|-|CYB3RHQ_REVISION_HPUX|-hpux-11v3-ia64.tar.gz>`__ (`sha512 <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_HPUX|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_HPUX|/cyb3rhq-agent-|CYB3RHQ_CURRENT_HPUX|-|CYB3RHQ_REVISION_HPUX|-hpux-11v3-ia64.tar.gz.sha512>`__)
+.. |HPUX_itanium| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_HPUX|-|CYB3RHQ_REVISION_HPUX|-hpux-11v3-ia64.tar.gz <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_HPUX|/hp-ux/cyb3rhq-agent-|CYB3RHQ_CURRENT_HPUX|-|CYB3RHQ_REVISION_HPUX|-hpux-11v3-ia64.tar.gz>`__ (`sha512 <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_HPUX|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_HPUX|/cyb3rhq-agent-|CYB3RHQ_CURRENT_HPUX|-|CYB3RHQ_REVISION_HPUX|-hpux-11v3-ia64.tar.gz.sha512>`__)
 
 +-----------------+--------------+-------------------+
 | Version         | Architecture | Package           |

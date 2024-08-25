@@ -49,7 +49,7 @@ Use cases
   		:align: center
   		:width: 80%
 
--  PCI DSS 10.5.1 requires that you retain audit log history for at least 12 months, with at least the most recent three months immediately available for analysis. You can achieve this by enabling Cyb3rhq log archives and configuring `index management policies <https://cyb3rhq.com/blog/cyb3rhq-index-management/>`_. To enable Cyb3rhq log archives, take the following steps: 
+-  PCI DSS 10.5.1 requires that you retain audit log history for at least 12 months, with at least the most recent three months immediately available for analysis. You can achieve this by enabling Cyb3rhq log archives and configuring `index management policies <https://cyb3rhq.github.io/blog/cyb3rhq-index-management/>`_. To enable Cyb3rhq log archives, take the following steps: 
 
 	**Enable archives monitoring in the Cyb3rhq indexer**:
 

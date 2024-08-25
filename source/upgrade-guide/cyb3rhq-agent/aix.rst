@@ -9,7 +9,7 @@ Upgrading Cyb3rhq agents on AIX systems
 
 Follow the steps to upgrade the Cyb3rhq agent on AIX systems.  
   
-#. Download the latest `AIX installer <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_AIX|/aix/cyb3rhq-agent-|CYB3RHQ_CURRENT_AIX|-|CYB3RHQ_REVISION_AIX|.aix.ppc.rpm>`_. 
+#. Download the latest `AIX installer <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_AIX|/aix/cyb3rhq-agent-|CYB3RHQ_CURRENT_AIX|-|CYB3RHQ_REVISION_AIX|.aix.ppc.rpm>`_. 
 
 #. Run the following command:
 

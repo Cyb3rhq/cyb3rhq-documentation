@@ -11,8 +11,8 @@ Follow these steps to upgrade Cyb3rhq agents locally on macOS systems. If you wa
 
 .. note:: To perform the agent upgrade, administrator privileges are required.
 
-.. |macOS_intel_64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg>`__
-.. |macOS_arm64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg>`__
+.. |macOS_intel_64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.intel64.pkg>`__
+.. |macOS_arm64| replace:: `cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OSX|/macos/cyb3rhq-agent-|CYB3RHQ_CURRENT_OSX|-|CYB3RHQ_REVISION_OSX|.arm64.pkg>`__
 
 
 #. Download the latest macOS installer:

@@ -30,8 +30,8 @@ Indicate your deployment configuration, create the SSL certificates to encrypt c
 
       .. code-block:: console
 
-          # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
-          # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/config.yml
+          # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
+          # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/config.yml
 
 #. Edit ``./config.yml`` and replace the node names and IP values with the corresponding names and IP addresses. You need to do this for all Cyb3rhq server, Cyb3rhq indexer, and Cyb3rhq dashboard nodes. Add as many node fields as needed.
 
@@ -87,7 +87,7 @@ Install and configure the Cyb3rhq indexer nodes.
 
       .. code-block:: console
 
-        # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
+        # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-install.sh
 
 
 #. Run the Cyb3rhq installation assistant with the option ``--cyb3rhq-indexer`` and the node name to install and configure the Cyb3rhq indexer. The node name must be the same one used in ``config.yml`` for the initial configuration, for example, ``node-1``. The Cyb3rhq installation assistant requires dependencies like ``openssl`` and ``lsof`` to work. To install them automatically, add the ``--install-dependencies`` option to the command.

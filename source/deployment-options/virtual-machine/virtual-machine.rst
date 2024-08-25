@@ -11,7 +11,7 @@ Virtual Machine (OVA)
 Cyb3rhq provides a pre-built virtual machine image in Open Virtual Appliance (OVA) format. This can be directly imported to VirtualBox or other OVA compatible virtualization systems. Take into account that this VM only runs on 64-bit systems. It does not provide high availability and scalability out of the box. However, these can be implemented by using :doc:`distributed deployment </installation-guide/index>`.
 
 
-Download the `virtual appliance (OVA) <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OVA|/vm/cyb3rhq-|CYB3RHQ_CURRENT_OVA|.ova>`_, which contains the following components:
+Download the `virtual appliance (OVA) <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OVA|/vm/cyb3rhq-|CYB3RHQ_CURRENT_OVA|.ova>`_, which contains the following components:
 
     - Amazon Linux 2
     - Cyb3rhq manager |CYB3RHQ_CURRENT_OVA|
@@ -22,7 +22,7 @@ Download the `virtual appliance (OVA) <https://packages.cyb3rhq.com/|CYB3RHQ_CUR
 Packages list
 -------------
 
-.. |VM_AL2_64_OVA| replace:: `cyb3rhq-|CYB3RHQ_CURRENT_OVA|.ova <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OVA|/vm/cyb3rhq-|CYB3RHQ_CURRENT_OVA|.ova>`__ (`sha512 <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MAJOR_OVA|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_OVA|/cyb3rhq-|CYB3RHQ_CURRENT_OVA|.ova.sha512>`__)
+.. |VM_AL2_64_OVA| replace:: `cyb3rhq-|CYB3RHQ_CURRENT_OVA|.ova <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OVA|/vm/cyb3rhq-|CYB3RHQ_CURRENT_OVA|.ova>`__ (`sha512 <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MAJOR_OVA|/checksums/cyb3rhq/|CYB3RHQ_CURRENT_OVA|/cyb3rhq-|CYB3RHQ_CURRENT_OVA|.ova.sha512>`__)
 .. |CYB3RHQ_OVA_VERSION| replace:: |CYB3RHQ_CURRENT_OVA|
 
 +----------------+--------------+--------------+----------------------+------------------+

@@ -14,7 +14,7 @@ Cyb3rhq helps ensure PCI DSS compliance by performing log collection, file integ
 
 This guide explains how Cyb3rhq capabilities and modules assist with meeting **PCI DSS version 4.0** requirements:
 
--  `Cyb3rhq for PCI DSS V4.0 Guide (PDF) <https://cyb3rhq.com/resources/CYB3RHQ-PCI-DSS-V4.0-guide.pdf>`_
+-  `Cyb3rhq for PCI DSS V4.0 Guide (PDF) <https://cyb3rhq.github.io/resources/CYB3RHQ-PCI-DSS-V4.0-guide.pdf>`_
 
 In the following sections, we show some use cases on how to use Cyb3rhq capabilities and modules to meet **PCI DSS version 4.0** requirements:
 

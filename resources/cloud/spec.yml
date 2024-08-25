@@ -1,6 +1,6 @@
 openapi: 3.0.0
 servers:
-  - url: https://api.cloud.cyb3rhq.com/v2
+  - url: https://api.cloud.cyb3rhq.github.io/v2
     description: Cyb3rhq Cloud API
 info:
   title: Cyb3rhq Cloud API

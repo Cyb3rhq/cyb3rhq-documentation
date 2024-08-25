@@ -66,7 +66,7 @@ wpk_repository
 Repository where the WPK files will be downloaded.
 
 +--------------------+--------------------------------------------------+
-| **Default value**  | packages.cyb3rhq.com/4.x/wpk/                      |
+| **Default value**  | packages.wazuh.com/4.x/wpk/                      |
 +--------------------+--------------------------------------------------+
 | **Allowed values** | Any repository URL that contains the WPK files.  |
 +--------------------+--------------------------------------------------+
@@ -173,7 +173,7 @@ Sample Configuration
 
     <agent-upgrade>
       <chunk_size>16384</chunk_size>
-      <wpk_repository>packages.cyb3rhq.com/4.x/wpk/</wpk_repository>
+      <wpk_repository>packages.wazuh.com/4.x/wpk/</wpk_repository>
       <max_threads>16</max_threads>
     </agent-upgrade>
 

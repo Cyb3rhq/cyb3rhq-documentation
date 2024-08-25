@@ -231,7 +231,7 @@ If you encounter the message *Application Not Found* when accessing the Cyb3rhq 
 None of the above solutions are fixing my problem
 -------------------------------------------------
 
-We have a welcoming community which can help you with most of the problems you might have regarding Cyb3rhq deployment and usage `<https://cyb3rhq.com/community>`_.
+We have a welcoming community which can help you with most of the problems you might have regarding Cyb3rhq deployment and usage `<https://cyb3rhq.github.io/community>`_.
 
 Also, you can contact us opening issues in our GitHub repositories under the `organization <https://github.com/cyb3rhq>`_.
 

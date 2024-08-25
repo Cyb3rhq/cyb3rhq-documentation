@@ -516,13 +516,13 @@ Splunk dashboards
 
 Cyb3rhq provides several dashboards for Splunk.
 
--  `Wz-sp-4.x-9.x-cyb3rhq-amazon-aws <https://packages.cyb3rhq.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-amazon-aws>`__
--  `Wz-sp-4.x-9.x-cyb3rhq-docker-listener <https://packages.cyb3rhq.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-docker-listener>`__
--  `Wz-sp-4.x-9.x-cyb3rhq-incident-response <https://packages.cyb3rhq.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-incident-response>`__
--  `wz-sp-4.x-9.x-cyb3rhq-malware-detection <https://packages.cyb3rhq.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-malware-detection>`__
--  `Wz-sp-4.x-9.x-cyb3rhq-pci-dss <https://packages.cyb3rhq.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-pci-dss>`__
--  `wz-sp-4.x-9.x-cyb3rhq-security-events <https://packages.cyb3rhq.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-security-events>`__
--  `wz-sp-4.x-9.x-cyb3rhq-vulnerabilities <https://packages.cyb3rhq.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-vulnerabilities>`__
+-  `Wz-sp-4.x-9.x-cyb3rhq-amazon-aws <https://packages.wazuh.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-amazon-aws>`__
+-  `Wz-sp-4.x-9.x-cyb3rhq-docker-listener <https://packages.wazuh.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-docker-listener>`__
+-  `Wz-sp-4.x-9.x-cyb3rhq-incident-response <https://packages.wazuh.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-incident-response>`__
+-  `wz-sp-4.x-9.x-cyb3rhq-malware-detection <https://packages.wazuh.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-malware-detection>`__
+-  `Wz-sp-4.x-9.x-cyb3rhq-pci-dss <https://packages.wazuh.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-pci-dss>`__
+-  `wz-sp-4.x-9.x-cyb3rhq-security-events <https://packages.wazuh.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-security-events>`__
+-  `wz-sp-4.x-9.x-cyb3rhq-vulnerabilities <https://packages.wazuh.com/integrations/splunk/4.x-9.x/dashboards/wz-sp-4.x-9.x-cyb3rhq-vulnerabilities>`__
 
 After you complete the Splunk integration, you can use these dashboards to display your Cyb3rhq alerts in Splunk.
 

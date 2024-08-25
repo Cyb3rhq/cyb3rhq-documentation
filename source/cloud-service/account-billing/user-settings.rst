@@ -15,7 +15,7 @@ Configure your user profile
 
 You can configure your name, last name, company name, country, phone number, and website anytime.
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_ and click the upper-right user icon to open the menu.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_ and click the upper-right user icon to open the menu.
 2. Go to **User settings**.
 3. Fill in or edit the fields. *Company* and *Country* are required in order to continue.
 4. Click **Save** to complete the action.
@@ -25,7 +25,7 @@ Update your email address
 
 Each Cyb3rhq Cloud account has a primary email associated with it. If needed, you can change this primary email address.
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_ and click the upper-right user icon to open the menu.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_ and click the upper-right user icon to open the menu.
 2. Go to **User settings**.
 3. Click **Email address**.
 4. Enter a new email address and your current password, then click **Save** to confirm the action.
@@ -39,7 +39,7 @@ When you signed up for a Cyb3rhq Cloud account with your email address, you sele
 
 If you know your current password:
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_ and click the upper-right user icon to open the menu.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_ and click the upper-right user icon to open the menu.
 2. Go to **User settings**.
 3. In **Change password**, enter the current password and provide the new password that you want to use.
 4. Click **Save** to confirm the action.
@@ -58,7 +58,7 @@ To add an extra layer of security to your Cyb3rhq Cloud account, you can set up 
 
 To enable multi-factor authentication:
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_ and click the upper-right user icon to open the menu.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_ and click the upper-right user icon to open the menu.
 2. Go to **User settings**.
 3. Under Multi-factor authentication, click **Add MFA** and follow the steps described in the Set up virtual MFA device pane.
 4. Click **Enable MFA** to complete the process.

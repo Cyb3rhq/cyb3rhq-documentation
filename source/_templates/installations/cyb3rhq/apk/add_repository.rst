@@ -4,13 +4,13 @@
 
    .. code-block:: console
 
-      # wget -O /etc/apk/keys/alpine-devel@cyb3rhq.com-633d7457.rsa.pub https://packages.cyb3rhq.com/key/alpine-devel%40cyb3rhq.com-633d7457.rsa.pub
+      # wget -O /etc/apk/keys/alpine-devel@cyb3rhq.github.io-633d7457.rsa.pub https://packages.wazuh.com/key/alpine-devel%40cyb3rhq.github.io-633d7457.rsa.pub
 
 #. Add the repository:
 
    .. code-block:: console
 
-      # echo "https://packages.cyb3rhq.com/4.x/alpine/v3.12/main" >> /etc/apk/repositories
+      # echo "https://packages.wazuh.com/4.x/alpine/v3.12/main" >> /etc/apk/repositories
 
 #. Update the metadata information:
 

@@ -179,7 +179,7 @@ Select your deployment type and follow the instructions to change the default pa
 
          .. code-block:: console
   
-            # curl -sO https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-passwords-tool.sh
+            # curl -sO https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-passwords-tool.sh
             # bash cyb3rhq-passwords-tool.sh --api --change-all --admin-user cyb3rhq --admin-password cyb3rhq
   
          .. code-block:: console

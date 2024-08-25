@@ -79,7 +79,7 @@ Yes, the Cyb3rhq Cloud platform is compliant with SOC 2 standards.
 How can I get support?
 ----------------------
 
-Every environment includes support after the first payment. You can contact the Cyb3rhq team anytime through the Help section on your Cyb3rhq Cloud Console. You can also fill out `this form <https://cyb3rhq.com/cyb3rhq-cloud-info/>`_ to get help from the Cyb3rhq team.
+Every environment includes support after the first payment. You can contact the Cyb3rhq team anytime through the Help section on your Cyb3rhq Cloud Console. You can also fill out `this form <https://cyb3rhq.github.io/cyb3rhq-cloud-info/>`_ to get help from the Cyb3rhq team.
 
 Where is Cyb3rhq Cloud hosted?
 ----------------------------

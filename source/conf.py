@@ -128,8 +128,8 @@ html_theme = 'cyb3rhq_doc_theme_v3'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'cyb3rhq_web_url': 'https://cyb3rhq.com',
-    'cyb3rhq_doc_url': 'https://documentation.cyb3rhq.com',
+    'cyb3rhq_web_url': 'https://cyb3rhq.github.io',
+    'cyb3rhq_doc_url': 'https://cyb3rhq.github.io/documentation',
     'collapse_navigation': False, # Only for Cyb3rhq documentation theme v2.0
     'include_edit_repo': True,
     'include_version_selector': True,

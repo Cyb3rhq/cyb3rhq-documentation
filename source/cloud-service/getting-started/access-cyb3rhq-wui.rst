@@ -11,7 +11,7 @@ The Cyb3rhq dashboard has a flexible and intuitive web interface. Through this W
 
 Follow these steps to access Cyb3rhq dashboard:
 
-#. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_.
+#. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_.
 #. Select the environment you want to access from the **Environments** page.
 #. Click **Open Cyb3rhq** to open Cyb3rhq WUI.
 #. Choose from one of these methods to log in:
@@ -22,7 +22,7 @@ Follow these steps to access Cyb3rhq dashboard:
 
 It is highly recommended for security reasons to change the default password and create your own users. 
 
-  .. note:: You can access the Cyb3rhq WUI directly using the URL *https://<CLOUD_ID>.cloud.cyb3rhq.com*, where ``<CLOUD_ID>`` is the Cloud ID of your environment.
+  .. note:: You can access the Cyb3rhq WUI directly using the URL *https://<CLOUD_ID>.cloud.cyb3rhq.github.io*, where ``<CLOUD_ID>`` is the Cloud ID of your environment.
 
 
 If you have any questions about the Cyb3rhq Cloud, see the :doc:`Cloud service FAQ </cloud-service/getting-started/starting-faq>`.

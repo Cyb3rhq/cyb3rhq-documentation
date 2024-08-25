@@ -8,7 +8,7 @@ Certificates deployment
 
 In the :ref:`installation guide <installation_guide>`, the Cyb3rhq certs tool has been used to create certificates, but any other certificates creation method, for example using `OpenSSL <https://www.openssl.org/>`_, can be used.
 
-The Cyb3rhq certs tool can be downloaded here: `cyb3rhq-certs-tool.sh <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh>`_.
+The Cyb3rhq certs tool can be downloaded here: `cyb3rhq-certs-tool.sh <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/cyb3rhq-certs-tool.sh>`_.
 
 There are three kinds of certificates needed for the installation:
 
@@ -31,7 +31,7 @@ These certificates are created with the following additional information:
 - ``CN``: Name of the node
 
 
-To create the certificates, edit the ``config.yml`` file and replace the node names and IP values with the corresponding names and IP addresses. The ``<node-ip>`` can be either an IP address or a DNS name. The ``config.yml`` template can be found here: `config.yml <https://packages.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/config.yml>`_.
+To create the certificates, edit the ``config.yml`` file and replace the node names and IP values with the corresponding names and IP addresses. The ``<node-ip>`` can be either an IP address or a DNS name. The ``config.yml`` template can be found here: `config.yml <https://packages.wazuh.com/|CYB3RHQ_CURRENT_MINOR|/config.yml>`_.
 
     .. code-block:: yaml
 

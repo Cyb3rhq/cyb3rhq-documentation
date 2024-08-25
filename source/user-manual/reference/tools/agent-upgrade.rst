@@ -32,7 +32,7 @@ The agent_upgrade program allows you to list outdated agents and upgrade them.
 +--------------------------------------------+--------------------------------------------------------------------------------+
 | -v VERSION, --version VERSION              | Version to upgrade. [Default: latest Cyb3rhq version]                            |
 +--------------------------------------------+--------------------------------------------------------------------------------+
-| -r REPOSITORY, --repository REPOSITORY     | Specify a repository URL. [Default: packages.cyb3rhq.com/4.x/wpk/]               |
+| -r REPOSITORY, --repository REPOSITORY     | Specify a repository URL. [Default: packages.wazuh.com/4.x/wpk/]               |
 +--------------------------------------------+--------------------------------------------------------------------------------+
 | -f FILE, --file FILE                       | Custom WPK filename.                                                           |
 +--------------------------------------------+--------------------------------------------------------------------------------+

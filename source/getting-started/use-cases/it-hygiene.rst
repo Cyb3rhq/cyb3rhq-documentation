@@ -31,7 +31,7 @@ You can also generate property-specific reports for a monitored endpoint. For ex
    :align: center
    :width: 80%
 
-The inventory data collected can be queried using the `Cyb3rhq API <https://documentation.cyb3rhq.com/|CYB3RHQ_CURRENT_MINOR|/user-manual/api/reference.html#tag/Syscollector>`__, which retrieves nested data in JSON format. For example, you can query the package inventory to check for the ``cyb3rhq-agent`` package on a monitored endpoint using the **Server management** > **Dev Tools** module on the Cyb3rhq dashboard. Command line tools like :ref:`cURL <inventory_cyb3rhq_api_curl>` can also be used to query the inventory database.
+The inventory data collected can be queried using the `Cyb3rhq API <https://cyb3rhq.github.io/documentation/|CYB3RHQ_CURRENT_MINOR|/user-manual/api/reference.html#tag/Syscollector>`__, which retrieves nested data in JSON format. For example, you can query the package inventory to check for the ``cyb3rhq-agent`` package on a monitored endpoint using the **Server management** > **Dev Tools** module on the Cyb3rhq dashboard. Command line tools like :ref:`cURL <inventory_cyb3rhq_api_curl>` can also be used to query the inventory database.
 
 .. thumbnail:: /images/getting-started/use-cases/it-hygiene/inventory-querying-api.png
    :title: Querying the package inventory using the Dev Tools
@@ -100,7 +100,7 @@ Malware detection
 
 Malware detection is essential for safeguarding computer systems and networks from cyber threats. Organizations can improve their IT hygiene by identifying and mitigating malicious software that can cause data breaches, system compromises, and financial losses.
 
-Cyb3rhq offers an out-of-the-box ruleset designed to recognize malware patterns and trigger alerts for quick response. Cyb3rhq also allows security analysts to create :doc:`custom rules </user-manual/ruleset/rules/custom>` tailored to their environment, thereby optimizing their malware detection efforts. For example, we created custom rules to detect `Vidar infostealer malware using Cyb3rhq <https://cyb3rhq.com/blog/detecting-vidar-infostealer-with-cyb3rhq/>`__.
+Cyb3rhq offers an out-of-the-box ruleset designed to recognize malware patterns and trigger alerts for quick response. Cyb3rhq also allows security analysts to create :doc:`custom rules </user-manual/ruleset/rules/custom>` tailored to their environment, thereby optimizing their malware detection efforts. For example, we created custom rules to detect `Vidar infostealer malware using Cyb3rhq <https://cyb3rhq.github.io/blog/detecting-vidar-infostealer-with-cyb3rhq/>`__.
 
 .. code-block:: xml
 

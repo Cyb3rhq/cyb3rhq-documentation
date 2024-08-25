@@ -12,13 +12,13 @@ Information about your current billing cycle, outstanding payments, and billing 
 
 To see your current billing cycle information:
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_.
 2. Go to the **Account** section and select **Summary** under **Billing**.
    
   You can see the details about the upcoming billing for your active environments under the current billing cycle.
 
 To see your billing history:
 
-1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.com/>`_.
+1. Log in to the `Cyb3rhq Cloud Console <https://console.cloud.cyb3rhq.github.io/>`_.
 2. Go to the **Account** section, select **Billing** and select **Invoices**.
 3. Click the invoice to download a PDF with your billing history details.

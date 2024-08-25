@@ -192,7 +192,7 @@ $ossec_emailnotification
 $ossec_emailto
     Email to address. ``['user1@mycompany.com','user2@mycompany.com']``
 
-  `Default ['recipient@example.cyb3rhq.com']`
+  `Default ['recipient@example.cyb3rhq.github.io']`
 
   `Type List`
 
@@ -201,7 +201,7 @@ $ossec_emailto
 $ossec_smtp_server
   SMTP mail server.
 
-  `Default smtp.example.cyb3rhq.com`
+  `Default smtp.example.cyb3rhq.github.io`
 
   `Type String`
 
@@ -210,7 +210,7 @@ $ossec_smtp_server
 $ossec_emailfrom
   Email from address.
 
-  `Default ossecm@example.cyb3rhq.com`
+  `Default ossecm@example.cyb3rhq.github.io`
 
   `Type String`
 

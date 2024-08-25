@@ -172,7 +172,7 @@ New features for Splunk plugin
 
 The Cyb3rhq app for Splunk also receives lots of new features and improvements on this new version. The Configuration tab is also improved as on the Kibana plugin to get the current manager/agent configuration, multiple groups support, and also:
 
-  - A documentation article to `set up a reverse proxy configuration <https://documentation.cyb3rhq.com/3.13/installation-guide/installing-splunk/splunk-reverse-proxy.html>`_ for Nginx and the Splunk plugin is now available.
+  - A documentation article to `set up a reverse proxy configuration <https://cyb3rhq.github.io/documentation/3.13/installation-guide/installing-splunk/splunk-reverse-proxy.html>`_ for Nginx and the Splunk plugin is now available.
   - Added *Dev tools*, *Amazon AWS*, *Osquery*, *Inventory data* and *Monitoring* tabs to the app.
   - Added *app logs* to monitor to check and troubleshoot problems while using the app.
   - Added a new selector to check the cluster nodes’ status and logs on the *Management > Status/Logs* tabs.

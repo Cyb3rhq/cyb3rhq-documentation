@@ -54,14 +54,14 @@ Cyb3rhq server configuration
       subjectAltName = @alt_names
       [alt_names]
       DNS.1 = cyb3rhq
-      DNS.2 = cyb3rhq.com
+      DNS.2 = cyb3rhq.github.io
 
    Where:
 
    -  ``C`` is the country where the organization making this request is domiciled.
    -  ``CN`` is the common name on the certificate. This should be the IP address or  FQDN of the Cyb3rhq manager. This field is not optional.
    -  ``subjectAltName`` is optional and specifies the alternate subject names that can be used for the server. It should be included to allow the enrollment of the Cyb3rhq agents with a SAN certificate.
-   -  ``DNS.1`` and ``DNS.2`` refer to the additional identities that the certificate should be valid for. In this case, the Cyb3rhq manager DNS are cyb3rhq and cyb3rhq.com.
+   -  ``DNS.1`` and ``DNS.2`` refer to the additional identities that the certificate should be valid for. In this case, the Cyb3rhq manager DNS are cyb3rhq and cyb3rhq.github.io.
 
 #. Create a certificate signing request (CSR) on the Cyb3rhq server with the following command. The CSR will be used to request a digital certificate from a Certificate Authority (CA):
 
