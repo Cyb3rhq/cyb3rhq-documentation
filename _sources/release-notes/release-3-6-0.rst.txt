@@ -71,4 +71,4 @@ The Splunk app has been redesigned from the ground based on Material Design.
 - Dynamic visualizations, granting improved performance.
 - Dynamic filter queries.
 
-You can follow our installation guide to test it out: https://cyb3rhq.github.io/documentation/current/installation-guide/installing-splunk/index.html
+You can follow our installation guide to test it out: https://cyb3rhq.github.io/documentation/installation-guide/installing-splunk/index.html

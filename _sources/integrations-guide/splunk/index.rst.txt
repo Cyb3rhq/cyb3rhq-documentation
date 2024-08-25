@@ -51,7 +51,7 @@ You must install Logstash on a dedicated server or on the server hosting the thi
 
 Perform the following steps on your Logstash server to set up your forwarder.
 
-#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/current/installing-logstash.html>`__. Ensure that you consider the `requirements <https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html>`__ and `performance tuning <https://www.elastic.co/guide/en/logstash/current/performance-troubleshooting.html>`__ guidelines for running Logstash.
+#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/installing-logstash.html>`__. Ensure that you consider the `requirements <https://www.elastic.co/guide/en/logstash/getting-started-with-logstash.html>`__ and `performance tuning <https://www.elastic.co/guide/en/logstash/performance-troubleshooting.html>`__ guidelines for running Logstash.
 #. Run the following command to install the `logstash-input-opensearch plugin <https://github.com/opensearch-project/logstash-input-opensearch>`__. This plugin reads data from the Cyb3rhq indexer into the Logstash pipeline.
 
    .. code-block:: console
@@ -76,14 +76,14 @@ Perform the following steps on your Logstash server to set up your forwarder.
 Configuring a pipeline
 ^^^^^^^^^^^^^^^^^^^^^^
 
-A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/current/configuration.html>`__ allows Logstash to use plugins to read the data from the Cyb3rhq indexes and send them to Splunk.
+A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/configuration.html>`__ allows Logstash to use plugins to read the data from the Cyb3rhq indexes and send them to Splunk.
 
 The Logstash pipeline requires access to the following secret values:
 
 -  Cyb3rhq indexer credentials
 -  Splunk Event Collector token
 
-To securely store these values, you can use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/current/keystore.html>`__.
+To securely store these values, you can use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/keystore.html>`__.
 
 #. Run the following commands on your Logstash server to set a keystore password:
 
@@ -193,7 +193,7 @@ Running Logstash
       $ sudo systemctl enable logstash
       $ sudo systemctl start logstash
 
-Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/current/setup-logstash.html>`__.
+Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/setup-logstash.html>`__.
 
 .. note::
    
@@ -231,7 +231,7 @@ Installing Logstash
 
 Logstash must forward the data from the Cyb3rhq server to the Splunk indexes created previously.
 
-#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/current/installing-logstash.html>`__ on the same system as the Cyb3rhq server.
+#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/installing-logstash.html>`__ on the same system as the Cyb3rhq server.
 #. Copy the Splunk root certificates to the Cyb3rhq server.
 
    .. note::
@@ -249,11 +249,11 @@ Logstash must forward the data from the Cyb3rhq server to the Splunk indexes cre
 Configuring a pipeline
 ^^^^^^^^^^^^^^^^^^^^^^
 
-A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/current/configuration.html>`__ allows Logstash to use plugins to read the data in the Cyb3rhq ``/var/ossec/logs/alerts/alerts.json`` alerts file and send them to Splunk.
+A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/configuration.html>`__ allows Logstash to use plugins to read the data in the Cyb3rhq ``/var/ossec/logs/alerts/alerts.json`` alerts file and send them to Splunk.
 
 The Logstash pipeline requires access to your Splunk Event Collector Token.
 
-To securely store these values, you can use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/current/keystore.html>`__.
+To securely store these values, you can use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/keystore.html>`__.
 
 #. Run the following commands on your Logstash server to set a keystore password:
 
@@ -279,7 +279,7 @@ To securely store these values, you can use the `Logstash keystore <https://www.
       $ sudo -E /usr/share/logstash/bin/logstash-keystore --path.settings /etc/logstash create
       $ sudo -E /usr/share/logstash/bin/logstash-keystore --path.settings /etc/logstash add SPLUNK_AUTH
 
-Configuring the pipeline with the Tail mode and the JSON codec for the `file input plugin <https://www.elastic.co/guide/en/logstash/current/plugins-inputs-file.html>`__ allows Logstash to read the Cyb3rhq alerts file.
+Configuring the pipeline with the Tail mode and the JSON codec for the `file input plugin <https://www.elastic.co/guide/en/logstash/plugins-inputs-file.html>`__ allows Logstash to read the Cyb3rhq alerts file.
 
 To configure the Logstash pipeline do the following.
 
@@ -352,7 +352,7 @@ Running Logstash
       $ sudo systemctl enable logstash
       $ sudo systemctl start logstash
 
-Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/current/setup-logstash.html>`__.
+Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/setup-logstash.html>`__.
 
 .. note::
    

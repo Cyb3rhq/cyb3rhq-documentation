@@ -98,7 +98,7 @@ Similarly, checking for new alerts periodically means that the alerts reach the 
 
 We discuss the data forwarders that we use in the integration alternatives.
 
-There are several ways to ingest data into third-party indexers, which include using `content sources <https://www.elastic.co/guide/en/workplace-search/current/workplace-search-content-sources.html>`__, `Elastic Agent <https://www.elastic.co/guide/en/observability/current/deploy-agent-to-send-data.html>`__, `Beats <https://www.elastic.co/guide/en/observability/current/deploy-beats-to-send-data.html>`__, or `Logstash <https://www.elastic.co/logstash/>`__. Each method has different trade-offs and use cases. In this documentation, we consider only Logstash and Splunk Forwarder and explain our considerations.
+There are several ways to ingest data into third-party indexers, which include using `content sources <https://www.elastic.co/guide/en/workplace-search/workplace-search-content-sources.html>`__, `Elastic Agent <https://www.elastic.co/guide/en/observability/deploy-agent-to-send-data.html>`__, `Beats <https://www.elastic.co/guide/en/observability/deploy-beats-to-send-data.html>`__, or `Logstash <https://www.elastic.co/logstash/>`__. Each method has different trade-offs and use cases. In this documentation, we consider only Logstash and Splunk Forwarder and explain our considerations.
 
 Logstash
 ~~~~~~~~

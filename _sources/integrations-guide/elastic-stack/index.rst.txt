@@ -30,7 +30,7 @@ Installing Logstash
 
 Perform the following steps to install Logstash and the required plugin.
 
-#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/current/installing-logstash.html>`__. Ensure that you consider the `requirements <https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html>`__ and `performance tuning <https://www.elastic.co/guide/en/logstash/current/performance-troubleshooting.html>`__ guidelines for running Logstash.
+#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/installing-logstash.html>`__. Ensure that you consider the `requirements <https://www.elastic.co/guide/en/logstash/getting-started-with-logstash.html>`__ and `performance tuning <https://www.elastic.co/guide/en/logstash/performance-troubleshooting.html>`__ guidelines for running Logstash.
 
    .. note::
 
@@ -92,19 +92,19 @@ In Elasticsearch, the indexes support up to ``1000`` fields by default. However,
    }
    ...
 
-You can further increase this value by following the `creating an index template <https://www.elastic.co/guide/en/elasticsearch/reference/current/index-templates.html>`__ documentation.
+You can further increase this value by following the `creating an index template <https://www.elastic.co/guide/en/elasticsearch/reference/index-templates.html>`__ documentation.
 
 Configuring a pipeline
 ^^^^^^^^^^^^^^^^^^^^^^
 
-A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/current/configuration.html>`__ allows Logstash to use plugins to read the data from the Cyb3rhq indexes and send them to Elasticsearch.
+A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/configuration.html>`__ allows Logstash to use plugins to read the data from the Cyb3rhq indexes and send them to Elasticsearch.
 
 The Logstash pipeline requires access to the following secret values:
 
 -  Cyb3rhq indexer credentials
 -  Elasticsearch credentials
 
-We use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/current/keystore.html>`__ to securely store these values.
+We use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/keystore.html>`__ to securely store these values.
 
 #. Run the following commands on your Logstash server to set a keystore password:
 
@@ -131,7 +131,7 @@ We use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/current/
 
       When you run each of the commands, you will be prompted to enter your credentials and the credentials will not be visible as you enter them.
 
-      ``ELASTICSEARCH_USERNAME``, ``ELASTICSEARCH_PASSWORD``, ``CYB3RHQ_INDEXER_USERNAME``, and ``CYB3RHQ_INDEXER_PASSWORD`` are `keys <https://www.elastic.co/guide/en/logstash/current/keystore.html>`__ representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.
+      ``ELASTICSEARCH_USERNAME``, ``ELASTICSEARCH_PASSWORD``, ``CYB3RHQ_INDEXER_USERNAME``, and ``CYB3RHQ_INDEXER_PASSWORD`` are `keys <https://www.elastic.co/guide/en/logstash/keystore.html>`__ representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.
    
    #. Create a new Logstash keystore:
 
@@ -240,7 +240,7 @@ Running Logstash
       $ sudo systemctl enable logstash.service
       $ sudo systemctl start logstash.service
 
-Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/current/setup-logstash.html>`__.
+Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/setup-logstash.html>`__.
 
 .. note::
    
@@ -264,7 +264,7 @@ We use Logstash to forward security data in the ``/var/ossec/logs/alerts/alerts.
 
 Perform the following steps to install Logstash and the required plugin.
 
-#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/current/installing-logstash.html>`__. Ensure that you consider the `requirements <https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html>`__ and `performance tuning <https://www.elastic.co/guide/en/logstash/current/performance-troubleshooting.html>`__ guidelines for running Logstash.
+#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/installing-logstash.html>`__. Ensure that you consider the `requirements <https://www.elastic.co/guide/en/logstash/getting-started-with-logstash.html>`__ and `performance tuning <https://www.elastic.co/guide/en/logstash/performance-troubleshooting.html>`__ guidelines for running Logstash.
 
    .. note::
       
@@ -321,16 +321,16 @@ In Elasticsearch, the indexes support up to ``1000`` fields by default. However,
    }
    ...
 
-You can further increase this value by following the `creating an index template <https://www.elastic.co/guide/en/elasticsearch/reference/current/index-templates.html>`__ documentation.
+You can further increase this value by following the `creating an index template <https://www.elastic.co/guide/en/elasticsearch/reference/index-templates.html>`__ documentation.
 
 Configuring a pipeline
 ^^^^^^^^^^^^^^^^^^^^^^
 
-A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/current/configuration.html>`__ allows Logstash to use plugins to read the data in the Cyb3rhq ``/var/ossec/logs/alerts/alerts.json`` alert file and send them to Elasticsearch.
+A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/configuration.html>`__ allows Logstash to use plugins to read the data in the Cyb3rhq ``/var/ossec/logs/alerts/alerts.json`` alert file and send them to Elasticsearch.
 
 The Logstash pipeline requires access to your Elasticsearch credentials.
 
-We use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/current/keystore.html>`__ to securely store these values.
+We use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/keystore.html>`__ to securely store these values.
 
 #. Run the following commands on your Logstash server to set a keystore password:
 
@@ -357,7 +357,7 @@ We use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/current/
       
       When you run each of the commands, you will be prompted to enter your credentials and the credentials will not be visible as you enter them.
 
-      ``ELASTICSEARCH_USERNAME`` and ``ELASTICSEARCH_PASSWORD`` are `keys <https://www.elastic.co/guide/en/logstash/current/keystore.html>`__ representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.
+      ``ELASTICSEARCH_USERNAME`` and ``ELASTICSEARCH_PASSWORD`` are `keys <https://www.elastic.co/guide/en/logstash/keystore.html>`__ representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.
 
    #. Create a new Logstash keystore:
 
@@ -455,7 +455,7 @@ Running Logstash
 
    The ``/var/log/logstash/logstash-plain.log`` file in the Logstash instance stores events generated when Logstash runs. View this file in case you need to troubleshoot.
 
-Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/current/setup-logstash.html>`__.
+Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/setup-logstash.html>`__.
 
 .. _configuring_cyb3rhq_alerts_index_pattern_in_elastic:
 

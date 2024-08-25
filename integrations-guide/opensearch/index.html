@@ -14,8 +14,8 @@
     <meta name="color-scheme" content="dark light">
     <meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 <meta content="Find out how to integrate Cyb3rhq with Opensearch in this integration guide." name="description" />
-<meta property="og:image" content="https://cyb3rhq.github.io/documentation/current/_static/images/cyb3rhq-docs-card.png">
-    <meta property="og:url" content="https://cyb3rhq.github.io/documentation/current/integrations-guide/opensearch/index.html">
+<meta property="og:image" content="https://cyb3rhq.github.io/documentation/_static/images/cyb3rhq-docs-card.png">
+    <meta property="og:url" content="https://cyb3rhq.github.io/documentation/integrations-guide/opensearch/index.html">
     <meta property="og:type" content="website">
     <meta property="og:title" content="OpenSearch integration · Cyb3rhq documentation">
     <meta property="og:description" content="User manual, installation and configuration guides. Learn how to get the most out of the Cyb3rhq platform.">
@@ -24,7 +24,7 @@
     <meta name="twitter:creator" content="@cyb3rhq">
     <meta name="twitter:title" content="OpenSearch integration · Cyb3rhq documentation">
     <meta name="twitter:description" content="User manual, installation and configuration guides. Learn how to get the most out of the Cyb3rhq platform.">
-    <meta name="twitter:image" content="https://cyb3rhq.github.io/documentation/current/_static/images/cyb3rhq-docs-card.png">
+    <meta name="twitter:image" content="https://cyb3rhq.github.io/documentation/_static/images/cyb3rhq-docs-card.png">
     <title>OpenSearch integration · Cyb3rhq documentation</title>
     <style media="prefers-color-scheme: light">
       html, body {
@@ -51,7 +51,7 @@
     <link rel="icon" href="../../_static/images/dark-favicon.png?v=0" media="(prefers-color-scheme:dark)" sizes="any" type="image/png"/>
     <link rel="icon" href="../../_static/images/favicon.png?v=0" media="(prefers-color-scheme:light)" sizes="any" type="image/png"/>
     <link rel="apple-touch-icon" href="../../_static/images/favicon.svg?v=0">
-    <link rel="canonical" href="https://cyb3rhq.github.io/documentation/current/integrations-guide/opensearch/index.html">
+    <link rel="canonical" href="https://cyb3rhq.github.io/documentation/integrations-guide/opensearch/index.html">
     </head><body class="document"  data-path="integrations-guide/opensearch/index" data-spy="scroll" data-target="#local-toc" data-offset="200">
 <header id="header">
   <div class="nav-top">
@@ -165,7 +165,7 @@
                 <a class="nav-link" href="https://cyb3rhq.github.io/cloud/" target="_blank" rel="noreferrer noopener">Cloud</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://cyb3rhq.github.io/documentation/current/index.html">Documentation</a>
+                <a class="nav-link" href="https://cyb3rhq.github.io/documentation/index.html">Documentation</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown-services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services<b class="caret d-inline d-sm-none"></b><svg class="d-none d-sm-inline"><use xlink:href="#menu-chevron" /></svg></a>
@@ -1243,7 +1243,7 @@
 <h3>Installing Logstash<a class="headerlink" href="#installing-logstash" title="Permalink to this heading"></a></h3>
 <p>Perform the following steps to install Logstash and the required plugins. Ensure your <a class="reference external" href="https://opensearch.org/docs/latest/tools/index/#compatibility-matrices">Logstash and OpenSearch versions are compatible</a>.</p>
 <ol class="arabic">
-<li><p>Follow the Elastic documentation to <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/installing-logstash.html">install Logstash</a>.</p></li>
+<li><p>Follow the Elastic documentation to <a class="reference external" href="https://www.elastic.co/guide/en/logstash/installing-logstash.html">install Logstash</a>.</p></li>
 <li><p>Install the <a class="reference external" href="https://github.com/opensearch-project/logstash-input-opensearch">logstash-input-opensearch plugin</a> and the <a class="reference external" href="https://github.com/opensearch-project/logstash-output-opensearch">logstash-output-opensearch plugin</a> using the following command. These plugins allow reading the data from the Cyb3rhq indexer into the Logstash pipeline and writing the data into OpenSearch.</p>
 <div class="highlight-console notranslate"><div class="highlight" data-pagefind-weight="0.5"><pre><span></span><span class="gp">$ </span>sudo<span class="w"> </span>/usr/share/logstash/bin/logstash-plugin<span class="w"> </span>install<span class="w"> </span>logstash-input-opensearch<span class="w"> </span>logstash-output-opensearch
 </pre></div>
@@ -1295,13 +1295,13 @@
 </section>
 <section id="configuring-a-pipeline">
 <h3>Configuring a pipeline<a class="headerlink" href="#configuring-a-pipeline" title="Permalink to this heading"></a></h3>
-<p>A <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/configuration.html">Logstash pipeline</a> allows Logstash to use plugins to read the data from the Cyb3rhq indexes and send them to OpenSearch.</p>
+<p>A <a class="reference external" href="https://www.elastic.co/guide/en/logstash/configuration.html">Logstash pipeline</a> allows Logstash to use plugins to read the data from the Cyb3rhq indexes and send them to OpenSearch.</p>
 <p>The Logstash pipeline requires access to the following secret values:</p>
 <ul class="simple">
 <li><p>Cyb3rhq indexer credentials</p></li>
 <li><p>OpenSearch credentials</p></li>
 </ul>
-<p>We use the  <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/keystore.html">Logstash keystore</a> to securely store these values.</p>
+<p>We use the  <a class="reference external" href="https://www.elastic.co/guide/en/logstash/keystore.html">Logstash keystore</a> to securely store these values.</p>
 <ol class="arabic">
 <li><p>Run the following commands on your Logstash server to set a keystore password:</p>
 <div class="highlight-console notranslate"><div class="highlight" data-pagefind-weight="0.5"><pre><span></span><span class="gp">$ </span><span class="nb">set</span><span class="w"> </span>+o<span class="w"> </span><span class="nb">history</span>
@@ -1323,7 +1323,7 @@
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>When you run each of the commands, you will be prompted to enter your credentials and the credentials will not be visible as you enter them.</p>
-<p><code class="docutils literal notranslate"><span class="pre">OPENSEARCH_USERNAME</span></code>, <code class="docutils literal notranslate"><span class="pre">OPENSEARCH_PASSWORD</span></code>, <code class="docutils literal notranslate"><span class="pre">CYB3RHQ_INDEXER_USERNAME</span></code>, and <code class="docutils literal notranslate"><span class="pre">CYB3RHQ_INDEXER_PASSWORD</span></code> are <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/keystore.html">keys</a> representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.</p>
+<p><code class="docutils literal notranslate"><span class="pre">OPENSEARCH_USERNAME</span></code>, <code class="docutils literal notranslate"><span class="pre">OPENSEARCH_PASSWORD</span></code>, <code class="docutils literal notranslate"><span class="pre">CYB3RHQ_INDEXER_USERNAME</span></code>, and <code class="docutils literal notranslate"><span class="pre">CYB3RHQ_INDEXER_PASSWORD</span></code> are <a class="reference external" href="https://www.elastic.co/guide/en/logstash/keystore.html">keys</a> representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.</p>
 </div>
 <ol class="arabic">
 <li><p>Create a new Logstash keystore:</p>
@@ -1433,7 +1433,7 @@ output {
 </div>
 </li>
 </ol>
-<p>Check Elastic documentation for more details on <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/setup-logstash.html">setting up and running Logstash</a>.</p>
+<p>Check Elastic documentation for more details on <a class="reference external" href="https://www.elastic.co/guide/en/logstash/setup-logstash.html">setting up and running Logstash</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Any data indexed before the configuration is complete would not be forwarded to the OpenSearch indexes.</p>
@@ -1450,7 +1450,7 @@ output {
 <p>We use Logstash to forward security data in the <code class="docutils literal notranslate"><span class="pre">/var/ossec/logs/alerts/alerts.json</span></code> alerts file from the Cyb3rhq server to the OpenSearch indexes.</p>
 <p>Perform the following steps to install Logstash and the required plugin.</p>
 <ol class="arabic">
-<li><p>Follow the Elastic documentation to <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/installing-logstash.html">install Logstash</a> on the Cyb3rhq server.</p></li>
+<li><p>Follow the Elastic documentation to <a class="reference external" href="https://www.elastic.co/guide/en/logstash/installing-logstash.html">install Logstash</a> on the Cyb3rhq server.</p></li>
 <li><p>Run the following command to install the <a class="reference external" href="https://github.com/opensearch-project/logstash-output-opensearch">logstash-output-opensearch plugin</a>. This plugin allows Logstash to write the data into OpenSearch.</p>
 <div class="highlight-console notranslate"><div class="highlight" data-pagefind-weight="0.5"><pre><span></span><span class="gp">$ </span>sudo<span class="w"> </span>/usr/share/logstash/bin/logstash-plugin<span class="w"> </span>install<span class="w"> </span>logstash-output-opensearch
 </pre></div>
@@ -1496,9 +1496,9 @@ output {
 </section>
 <section id="id3">
 <h3>Configuring a pipeline<a class="headerlink" href="#id3" title="Permalink to this heading"></a></h3>
-<p>A <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/configuration.html">Logstash pipeline</a> allows Logstash to use plugins to read the data in the Cyb3rhq <code class="docutils literal notranslate"><span class="pre">/var/ossec/logs/alerts/alerts.json</span></code> alerts file and send them to OpenSearch.</p>
+<p>A <a class="reference external" href="https://www.elastic.co/guide/en/logstash/configuration.html">Logstash pipeline</a> allows Logstash to use plugins to read the data in the Cyb3rhq <code class="docutils literal notranslate"><span class="pre">/var/ossec/logs/alerts/alerts.json</span></code> alerts file and send them to OpenSearch.</p>
 <p>The Logstash pipeline requires access to your OpenSearch credentials.</p>
-<p>We use the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/keystore.html">Logstash keystore</a> to securely store these values.</p>
+<p>We use the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/keystore.html">Logstash keystore</a> to securely store these values.</p>
 <ol class="arabic">
 <li><p>Run the following commands on your Logstash server to set a keystore password:</p>
 <div class="highlight-console notranslate"><div class="highlight" data-pagefind-weight="0.5"><pre><span></span><span class="gp">$ </span><span class="nb">set</span><span class="w"> </span>+o<span class="w"> </span><span class="nb">history</span>
@@ -1520,7 +1520,7 @@ output {
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>When you run each of the commands, you will be prompted to enter your credentials and the credentials will not be visible as you enter them.</p>
-<p><code class="docutils literal notranslate"><span class="pre">OPENSEARCH_USERNAME</span></code> and <code class="docutils literal notranslate"><span class="pre">OPENSEARCH_PASSWORD</span></code> are <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/keystore.html">keys</a> representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.</p>
+<p><code class="docutils literal notranslate"><span class="pre">OPENSEARCH_USERNAME</span></code> and <code class="docutils literal notranslate"><span class="pre">OPENSEARCH_PASSWORD</span></code> are <a class="reference external" href="https://www.elastic.co/guide/en/logstash/keystore.html">keys</a> representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.</p>
 </div>
 <ol class="arabic">
 <li><p>Create a new Logstash keystore:</p>
@@ -1619,7 +1619,7 @@ output {
 <p>Any data indexed before the configuration is complete would not be forwarded to the OpenSearch indexes.</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">/var/log/logstash/logstash-plain.log</span></code> file in the Logstash instance stores events generated when Logstash runs. View this file in case you need to troubleshoot.</p>
 </div>
-<p>Check Elastic documentation for more details on <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/setup-logstash.html">setting up and running Logstash</a>.</p>
+<p>Check Elastic documentation for more details on <a class="reference external" href="https://www.elastic.co/guide/en/logstash/setup-logstash.html">setting up and running Logstash</a>.</p>
 </section>
 </section>
 <section id="configuring-the-cyb3rhq-alerts-index-pattern-in-opensearch">
@@ -1802,9 +1802,9 @@ output {
               <div class="footer-section">
                 <div class="footer-title">Documentation</div>
                 <ul>
-                  <li><a href="https://cyb3rhq.github.io/documentation/current/quickstart.html">Quickstart</a></li>
-                  <li><a href="https://cyb3rhq.github.io/current/getting-started/index.html">Getting started</a></li>
-                  <li><a href="https://cyb3rhq.github.io/current/installation-guide/index.html">Installation guide</a></li>
+                  <li><a href="https://cyb3rhq.github.io/documentation/quickstart.html">Quickstart</a></li>
+                  <li><a href="https://cyb3rhq.github.io/getting-started/index.html">Getting started</a></li>
+                  <li><a href="https://cyb3rhq.github.io/installation-guide/index.html">Installation guide</a></li>
                 </ul>
               </div>
             </div>
