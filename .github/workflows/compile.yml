@@ -21,6 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install setuptools
         pip install -r requirements.txt
         pip install sphinx
 
@@ -30,8 +31,8 @@ jobs:
         node-version: '16'  # Adjust the Node.js version as necessary
 
     - name: Build Sphinx documentation for production
-      run: make html-prod
-
+      run: make html
+      
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
