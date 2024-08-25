@@ -1,0 +1,215 @@
+.. Copyright (C) 2015, Cyb3rhq, Inc.
+
+.. meta::
+   :description: Discover how to customize the appearance of your Cyb3rhq dashboard and PDF reports.
+
+Setting up custom branding
+==========================
+
+The Cyb3rhq dashboard white-labeling feature allows you to replace the following elements with custom ones.
+
+-  Logos in the Cyb3rhq dashboard.
+
+   -  Loading logos
+   -  Health check logo
+   -  Cyb3rhq dashboard home logo
+
+-  Logo, header, and footer in PDF reports.
+
+Custom logos in the Cyb3rhq dashboard
+-----------------------------------
+
+Loading logos
+^^^^^^^^^^^^^
+
+To customize the *global App loading* logo, do the following.
+
+.. thumbnail:: /images/kibana-app/features/white-labeling/custom-branding-settings-loading-page.png
+   :title: Global App loading logo
+   :alt: Global App loading logo
+   :align: center
+   :width: 80%
+
+#. Edit ``opensearch_dashboards.yml``. You can find this file in the following locations:
+
+   -  ``/etc/cyb3rhq-dashboard/``
+   -  ``/usr/share/cyb3rhq-dashboard/config/`` for Docker installations.
+
+#. Add the URL of your default and dark theme logos.
+
+   .. code-block:: yaml
+      :emphasize-lines: 2-4
+
+      opensearchDashboards.branding:
+         loadingLogo:
+            defaultUrl: "https://domain.org/default-logo.png"
+            darkModeUrl: "https://domain.org/dark-mode-logo.png"
+   
+#. Restart the Cyb3rhq dashboard service:
+
+   .. code-block:: console
+
+      # systemctl restart cyb3rhq-dashboard
+
+To customize the *Cyb3rhq plugins loading* logo, do the following.
+
+.. thumbnail:: /images/kibana-app/features/white-labeling/custom-branding-settings-loading.png
+   :title: Cyb3rhq plugins loading logo
+   :alt: Cyb3rhq plugins loading logo
+   :align: center
+   :width: 80%
+
+#. Click on **Dashboard management** > **App Settings**.
+#. Under the **Custom branding** section, set up ``customization.logo.app``.
+
+   -  This property sets the *App loading* logo image when the user is logging in to the Cyb3rhq server. It has a size limit of 1 MB. It replaces the logo image in the Cyb3rhq loading animation when a new section initializes. Recommended size: 300 pixels width, 70 pixels height.
+
+Once you are done setting your custom logo images, you can find them saved in ``/usr/share/cyb3rhq-dashboard/plugins/cyb3rhq/public/assets/custom/images/``.
+
+Health check logo
+^^^^^^^^^^^^^^^^^
+
+To use your own Health check logo in the Cyb3rhq dashboard, do the following.
+
+.. thumbnail:: /images/kibana-app/features/white-labeling/custom-branding-settings-health-check.png
+   :title: Health check logo
+   :alt: Health check logo
+   :align: center
+   :width: 80%
+
+#. Click on **Dashboard management** > **App Settings**.
+#. Under the **Custom branding** section, set up ``customization.logo.healthcheck``.
+
+   -  This property sets the *Health check* logo image. It has a size limit of 1 MB. It replaces the logo on top of the check list displayed during the health check routine. Recommended size: 300 pixels width, 70 pixels height.
+
+Once you are done setting your custom logo images, you can find them saved in ``/usr/share/cyb3rhq-dashboard/plugins/cyb3rhq/public/assets/custom/images/``.
+
+Cyb3rhq dashboard home logo
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To customize the *Cyb3rhq dashboard home* logo in the top header, do the following.
+
+.. thumbnail:: /images/kibana-app/features/white-labeling/custom-branding-settings-header.png
+   :title: Cyb3rhq dashboard home logo
+   :alt: Cyb3rhq dashboard home logo
+   :align: center
+   :width: 80%
+
+#. Edit ``opensearch_dashboards.yml``. You can find this file in the following locations:
+
+   -  ``/etc/cyb3rhq-dashboard/``
+   -  ``/usr/share/cyb3rhq-dashboard/config/`` for Docker installations.
+ 
+#. Add the URL of your default and dark theme logos.
+
+   .. code-block:: yaml
+      :emphasize-lines: 2,3,4
+   
+      opensearchDashboards.branding:
+         mark:
+            defaultUrl: "https://domain.org/default-logo.png"
+            darkModeUrl: "https://domain.org/dark-mode-logo.png"
+
+#. Restart the Cyb3rhq dashboard service:
+
+   .. code-block:: console
+
+      # systemctl restart cyb3rhq-dashboard
+
+Once you are done setting your custom logo image, you can find it saved in ``/usr/share/cyb3rhq-dashboard/plugins/cyb3rhq/public/assets/custom/images/``.
+
+Custom branding of the PDF reports
+----------------------------------
+
+To customize the PDF reports, click **Dashboard management** > **App Settings**. Under the **Custom branding** section, set up the following properties:
+
+-  ``customization.logo.reports``. This property sets the `PDF reports logo` image. It has a size limit of 1 MB. It's printed in the top left corner of the PDF reports. Recommended size: 190 pixels width, 40 pixels height. See #1 in the image below.
+
+-  ``customization.reports.footer``. This property sets the `Reports footer` text block. It has a size limit of 2 lines of 50 characters each. It's printed in the bottom left corner of the PDF reports. See #2 in the image below.
+
+-  ``customization.reports.header``. This property sets the `Reports header` text block. It has a size limit of 3 lines of 40 characters each. It's printed in the top right corner of the PDF reports. See #3 in the image below.
+
+.. thumbnail:: /images/kibana-app/features/white-labeling/custom-pdf-report.png
+   :title: Custom PDF report
+   :align: center
+   :width: 80%
+
+Configuration
+-------------
+
+The following settings correspond to the custom branding feature. Edit them using the user interface as explained above. 
+
+**customization.enabled**
+
+    Enables and disables custom branding of the Cyb3rhq dashboard and PDF reports.
+
+    +--------------------+-----------------------+
+    | Allowed values     |  true, false          |
+    +--------------------+-----------------------+
+    | Default value      |  true                 |
+    +--------------------+-----------------------+
+
+**customization.logo.app**
+
+    This logo is used as loading indicator while the user is logging into Cyb3rhq API.
+    It is saved as ``/usr/share/cyb3rhq-dashboard/plugins/cyb3rhq/public/assets/custom/images/customization.logo.app.<format>``.
+
+    +--------------------+----------------------------+
+    | Allowed format     | jpeg, jpg, png, svg        |
+    +--------------------+----------------------------+
+    | Default value      | ''                         |
+    +--------------------+----------------------------+
+    | Maximum file size  | 1 MB                       |
+    +--------------------+----------------------------+
+
+**customization.logo.healthcheck**
+
+    This is the image to be used as the health check logo.
+    It is saved as ``/usr/share/cyb3rhq-dashboard/plugins/cyb3rhq/public/assets/custom/images/customization.logo.healthcheck.<format>``.
+
+    +--------------------+----------------------------+
+    | Allowed format     | jpeg, jpg, png, svg        |
+    +--------------------+----------------------------+
+    | Default value      | ''                         |
+    +--------------------+----------------------------+
+    | Maximum file size  | 1 MB                       |
+    +--------------------+----------------------------+
+
+**customization.logo.reports**
+
+    This is the image to be used as logo in the PDF reports generated by the app.
+    It is saved as ``/usr/share/cyb3rhq-dashboard/plugins/cyb3rhq/public/assets/custom/images/customization.logo.reports.<format>``.
+
+    +--------------------+----------------------------+
+    | Allowed format     | jpeg, jpg, png             |
+    +--------------------+----------------------------+
+    | Default value      | ''                         |
+    +--------------------+----------------------------+
+    | Maximum file size  | 1 MB                       |
+    +--------------------+----------------------------+
+
+**customization.reports.header**
+
+    Header of the PDF reports. To use an empty header, type a space " " in the field. If the field is empty, it uses the default header.
+
+    +--------------------+------------------------+
+    | Allowed characters | Printable characters   |
+    +--------------------+------------------------+
+    | Default value      | ''                     |
+    +--------------------+------------------------+
+    | Value limit        | 3 lines of             |
+    |                    | 40 characters each     |
+    +--------------------+------------------------+
+
+**customization.reports.footer**
+
+ 	Footer of the PDF reports. To use an empty footer, type a space " " in the field. If the field is empty, it uses the default footer.
+
+    +--------------------+----------------------+
+    | Allowed characters | Printable characters |
+    +--------------------+----------------------+
+    | Default value      | ''                   |
+    +--------------------+----------------------+
+    | Value limit        | 2 lines of           |
+    |                    | 50 characters each   |
+    +--------------------+----------------------+

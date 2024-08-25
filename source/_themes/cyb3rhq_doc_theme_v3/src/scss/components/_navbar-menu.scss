@@ -1,0 +1,169 @@
+/* -----------------------------------------------------------------------------
+  Component: Navigation bar
+
+  Style for the menu with links that are external to the documentation (the
+  menu in the top bar).
+----------------------------------------------------------------------------- */
+
+
+header {
+
+  .navbar-nav .nav-item {
+    .nav-link {
+      padding: 24px 10px;
+      font-weight: 500;
+    }
+  }
+}
+
+.navbar-nav {
+  .nav-item {
+    &.show {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+    svg {
+      width: 12px;
+      height: 12px;
+      transform: rotate(0);
+      position: relative;
+      @include media-max(lg) {
+        left: 8px;
+        bottom: -1px;
+      }
+    }
+  }
+
+  .nav-link {
+    padding: 0 10px;
+    font-size: 17px;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      outline: none;
+    }
+    a:focus-visible {
+      text-decoration: underline;
+    }
+    &:active {
+      font-weight: 400;
+    }
+    &.dropdown-toggle {
+      padding-right: 27px;
+      &[aria-expanded="true"] {
+        text-decoration: none;
+      }
+      &::after {
+        content: none;
+      }
+    }
+  }
+  .dropdown-menu {
+    min-width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top: -24px!important;
+    &::before {
+      position: absolute;
+      top: -9px;
+      width: 18px;
+      height: 18px;
+      content: "";
+      border-top: 1px solid;
+      border-left: 1px solid;
+      transform: rotate(45deg);
+      clip-path: inset(-15px 0 0 -15px);
+    }
+    .dropdown-item {
+      padding: .9rem .75rem;
+      font-size: 17px;
+      font-weight: 500;
+    }
+  }
+}
+
+/* Light theme -------------------------------------------------------------- */
+
+.light-theme {
+  .navbar-nav {
+    background-color: $light-color-base-space;
+    .nav-link {
+      color: $light-color-main-text;
+      &:hover,
+      &:focus {
+        color: $light-color-primary;
+      }
+      &.dropdown-toggle {
+        &[aria-expanded="true"],
+        &:hover {
+          svg {
+            fill: $light-color-primary;
+          }
+        }
+        svg {
+          fill: $light-color-main-text;
+        }
+      }
+    }
+    .dropdown-menu {
+      background-color: $light-color-base-space;
+      border-color: $light-color-primary-lighter;
+      &::before {
+        background-color: $light-color-base-space;
+        border-color: $light-color-primary-lighter;
+      }
+      .dropdown-item {
+        color: $light-color-main-text;
+        &:hover {
+          color: $light-color-primary;
+          background-color: $light-color-base-space;
+        }
+      }
+    }
+  }
+}
+
+/* Dark- theme -------------------------------------------------------------- */
+
+.dark-theme {
+  .navbar-nav {
+    background-color: $dark-color-index-header-background;
+    .nav-link {
+      color: $dark-color-main-text;
+      &:hover,
+      &:focus {
+        color: $dark-color-primary;
+      }
+      &.dropdown-toggle {
+        &[aria-expanded="true"],
+        &:hover {
+          svg {
+            fill: $dark-color-primary;
+          }
+        }
+        svg {
+          fill: $dark-color-main-text;
+        }
+      }
+    }
+    .dropdown-menu {
+      background-color: $dark-color-index-header-background;
+      border-color: $dark-color-primary-lighter;
+      &::before {
+        background-color: $dark-color-index-header-background;
+        border-color: $dark-color-primary-lighter;
+      }
+      .dropdown-item {
+        color: $dark-color-main-text;
+        &:hover {
+          color: $dark-color-primary;
+          background-color: $dark-color-index-header-background;
+        }
+      }
+    }
+  }
+}

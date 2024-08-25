@@ -1,0 +1,182 @@
+.. Copyright (C) 2015, Cyb3rhq, Inc.
+
+.. meta::
+  :description: Visit the Cyb3rhq installation guide and learn more about the deployment process, available installation alternatives, and requirements.
+  
+.. _installation_guide:
+
+
+Installation guide
+==================
+
+Cyb3rhq is a security platform that provides unified XDR and SIEM protection for endpoints and cloud workloads. The solution is composed of a single universal agent and three central components: the Cyb3rhq server, the Cyb3rhq indexer, and the Cyb3rhq dashboard. For more information, check the :doc:`Getting Started </getting-started/index>` documentation. 
+
+Cyb3rhq is free and open source. Its components abide by the `GNU General Public License, version 2 <https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html>`_, and the `Apache License, Version 2.0 <https://www.apache.org/licenses/LICENSE-2.0>`_ (ALv2). 
+
+In this installation guide, you will learn how to install Cyb3rhq in your infrastructure. We also offer `Cyb3rhq Cloud <https://cyb3rhq.com/cloud/>`_, our software as a service (SaaS) solution. Cyb3rhq cloud is ready to use, with no additional hardware or software required, driving down the cost and complexity. Check the :doc:`Cloud service </cloud-service/index>` documentation for more information and take advantage of the `Cloud trial <https://console.cloud.cyb3rhq.com/sign-up?landing=trial>`_ to explore this service.
+
+
+Installing the Cyb3rhq central components
+---------------------------------------
+
+The Cyb3rhq indexer and Cyb3rhq server can be installed on a single host or be distributed in cluster configurations. You can choose between two installation methods for each Cyb3rhq central component. Both options provide instructions to install the central components on a single host or on separate hosts.
+
+You can check our :doc:`Quickstart </quickstart>` documentation to perform an all-in-one installation. This is the fastest way to get the Cyb3rhq central components up and running.
+
+For more deployment flexibility and customization, install the Cyb3rhq central components by starting with the :doc:`Cyb3rhq indexer <cyb3rhq-indexer/index>` deployment. This deployment method allows the all-in-one installation, and the installation of the components on separate servers.
+
+This is the installation workflow you will follow:
+
+.. raw:: html
+
+  <div class="link-boxes-group layout-3" data-step="0">
+    <div class="steps-line">
+      <div class="steps-number future-step">1</div>
+      <div class="steps-number future-step">2</div>
+      <div class="steps-number future-step">3</div>
+    </div>
+    <div class="link-boxes-item future-step">
+      <a class="link-boxes-link" href="cyb3rhq-indexer/index.html">
+        <p class="link-boxes-label">Install the Cyb3rhq indexer</p>
+
+.. image:: ../images/installation/Indexer-noBG.png
+     :align: center
+     :height: 61px
+
+.. raw:: html
+
+      </a>
+    </div>
+  
+    <div class="link-boxes-item future-step">
+      <a class="link-boxes-link" href="cyb3rhq-server/index.html">
+        <p class="link-boxes-label">Install the Cyb3rhq server</p>
+
+.. image:: ../images/installation/Server-noBG.png
+     :align: center
+     :height: 61px
+
+.. raw:: html
+
+      </a>
+    </div>
+  
+    <div class="link-boxes-item future-step">
+      <a class="link-boxes-link" href="cyb3rhq-dashboard/index.html">
+        <p class="link-boxes-label">Install the Cyb3rhq dashboard</p>
+
+.. image:: ../images/installation/Dashboard-noBG.png
+     :align: center
+     :height: 61px
+     
+.. raw:: html
+
+      </a>
+    </div>
+  </div>
+
+.. _installing_the_cyb3rhq_agent:
+
+Installing the Cyb3rhq agent
+--------------------------
+
+The Cyb3rhq agent is a single and lightweight monitoring software. It is a multi-platform component that can be deployed to laptops, desktops, servers, cloud instances, containers, or virtual machines. It provides visibility into the endpoint's security by collecting critical system and application records, inventory data, and detecting anomalies. 
+
+If the Cyb3rhq central components are already installed in your environment, select your operating system below and follow the installation steps to deploy the agent on the endpoints. 
+
+
+.. raw:: html
+
+  <div class="link-boxes-group layout-6">
+    <div class="link-boxes-item">
+      <a class="link-boxes-link" href="./cyb3rhq-agent/cyb3rhq-agent-package-linux.html">
+        <p class="link-boxes-label">Linux</p>
+
+.. image:: /images/installation/linux.png
+      :align: center
+
+.. raw:: html
+
+      </a>
+    </div>
+    <div class="link-boxes-item">
+      <a class="link-boxes-link" href="./cyb3rhq-agent/cyb3rhq-agent-package-windows.html">
+        <p class="link-boxes-label">Windows</p>
+
+.. image:: /images/installation/windows-logo.png
+      :align: center
+
+.. raw:: html
+
+      </a>
+    </div>
+    <div class="link-boxes-item">
+      <a class="link-boxes-link" href="./cyb3rhq-agent/cyb3rhq-agent-package-macos.html">
+        <p class="link-boxes-label">macOS</p>
+
+.. image:: /images/installation/macOS-logo.png
+      :align: center
+
+.. raw:: html
+
+      </a>
+    </div>
+    <div class="link-boxes-item">
+      <a class="link-boxes-link" href="./cyb3rhq-agent/cyb3rhq-agent-package-solaris.html">
+        <p class="link-boxes-label">Solaris</p>
+
+.. image:: /images/installation/solaris.png
+      :align: center
+      :width: 150px
+
+.. raw:: html
+
+      </a>
+    </div>
+    <div class="link-boxes-item">
+      <a class="link-boxes-link" href="./cyb3rhq-agent/cyb3rhq-agent-package-aix.html">
+        <p class="link-boxes-label">AIX</p>
+
+.. image:: /images/installation/AIX.png
+      :align: center
+
+.. raw:: html
+
+      </a>
+    </div>
+    <div class="link-boxes-item">
+      <a class="link-boxes-link" href="./cyb3rhq-agent/cyb3rhq-agent-package-hpux.html">
+        <p class="link-boxes-label">HP-UX</p>
+
+.. image:: /images/installation/hpux.png
+      :align: center
+
+.. raw:: html
+
+      </a>
+    </div>
+  </div>
+
+
+
+Packages list
+-------------
+
+In the :doc:`Packages list </installation-guide/packages-list>` section, you will find all the packages required for the installation of Cyb3rhq.
+
+Other installation alternatives
+-------------------------------
+
+Cyb3rhq provides other :doc:`installation alternatives </deployment-options/index>`. These are complementary to the installation methods of this installation guide. You will find instructions on how to deploy Cyb3rhq using ready-to-use machines, containers, and orchestration tools. There is also information on how to install the solution offline, from sources, and with commercial options.
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   cyb3rhq-indexer/index
+   cyb3rhq-server/index
+   cyb3rhq-dashboard/index
+   cyb3rhq-agent/index
+   packages-list
+   uninstalling-cyb3rhq/index

@@ -1,0 +1,130 @@
+.. Copyright (C) 2015, Cyb3rhq, Inc.
+
+.. meta::
+  :description: The Cyb3rhq Cloud Command Line Interface lets you interact with Cyb3rhq Cloud using commands in your command-line shell. Learn more about it in this section. 
+
+.. _cloud_cyb3rhq_cloud_cli:
+
+CLI
+===
+
+The Cyb3rhq Cloud Command Line Interface (``wcloud-cli``) is a tool that allows you to interact with Cyb3rhq Cloud using commands in your command-line shell.
+
+Requirements
+------------
+
+To use ``wcloud-cli``, you need to install the following components:
+
+- Python 3.x
+- ``boto3`` Python package
+- ``requests`` Python package
+  
+Installation
+------------
+
+1. Use the following command to download the CLI tool.
+
+  .. code-block:: console
+
+    # curl -so ~/wcloud-cli https://packages.cyb3rhq.com/resources/cloud/wcloud-cli && chmod 500  ~/wcloud-cli 
+
+2. Run it with the version argument to confirm that the installation was successful.
+
+  .. code-block:: console
+
+    # ./wcloud-cli version
+
+  .. code-block:: none
+    :class: output
+
+    Cyb3rhq Cloud CLI - "version": "1.0.1"
+
+
+Configuration
+-------------
+
+You can configure the settings that the Cyb3rhq Cloud CLI (``wcloud-cli``) uses to interact with Cyb3rhq Cloud.
+
+By default, the Cyb3rhq Cloud CLI reads the credential information from a local file named `credentials`, located in the `.cyb3rhq-cloud` folder of your home directory. The location of your home directory varies based on the operating system, but you can find it using the environment variables `%UserProfile%` in Windows, and `$HOME` or `~ (tilde)` in Unix-based systems. 
+
+A non-default location can be specified for the config file by setting the `CYB3RHQ_CLOUD_CREDENTIALS_FILE` environment variable to another local path.
+
+1. Create the credentials file and add your :ref:`API key <cloud_apis_auth>`.
+
+  ``~/.cyb3rhq-cloud/credentials``
+
+  .. code-block:: none
+
+    [default]
+    cyb3rhq_cloud_api_key_name = Test
+    cyb3rhq_cloud_api_key_secret = MDAwMDAwMDQ2T047Q4JVY1Sm5dDOqpDtkCQiY89fHjuZT3c90zs2
+
+  The file is organized in profiles, a collection of credentials. When you specify a profile to run a command, the credentials are used to run that command. You can specify one default profile that is used when no profile is explicitly referenced. 
+
+2. Use the following command to test your credentials. Optionally, you can specify the profile.
+
+  .. code-block:: console
+
+    # wcloud-cli test-credentials --profile <profile-name>
+
+  .. code-block:: none
+    :class: output
+
+    The API key 'Test' in the profile 'default' is valid.
+
+
+Examples
+--------
+
+Getting S3 token for archive data
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This command generates an AWS token to access the archive data of the environment with Cloud ID `012345678ab`.
+
+.. code-block:: console
+
+  # wcloud-cli cold-storage get-aws-s3-token 012345678ab
+
+.. code-block:: none
+  :class: output
+
+  Environment Cloud ID: '012345678ab'
+  Region: 'us-east-1'
+  S3 path: 'cyb3rhq-cloud-cold-us-east-1/012345678ab'
+
+  The following AWS credentials will be valid until 2024-04-22 13:55:27:
+  [cyb3rhq_cloud_storage]
+  aws_access_key_id = A...M
+  aws_secret_access_key = L...0
+  aws_session_token = F...Q==
+
+Listing archive data
+^^^^^^^^^^^^^^^^^^^^^
+
+This command lists the archive data files of the environment `012345678ab` between the specified dates.
+
+.. code-block:: console
+
+  # wcloud-cli cold-storage list 012345678ab --start 2021-05-07 --end 2021-05-07
+
+.. code-block:: none
+  :class: output
+
+  Environment '012345678ab' files from 2021-05-07 to 2021-05-07:
+  012345678ab/output/alerts/2021/05/07/012345678ab_output_alerts_20210507T1040_mXSoDTf5Pgyr8b8D.json.gz
+
+Downloading archive data
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This command downloads in the `/home/test` directory the archive data files of the environment `012345678ab` between the specified dates.
+
+.. code-block:: console
+
+  # wcloud-cli cold-storage download 012345678ab /home/test --start 2021-05-07 --end 2021-05-07
+
+.. code-block:: none
+  :class: output
+
+  Environment '012345678ab' files from 2021-05-07 to 2021-05-07:
+  Downloading object 012345678ab/output/alerts/2021/05/07/012345678ab_output_alerts_20210507T1040_mXSoDTf5Pgyr8b8D.json.gz
+  Downloaded object 012345678ab/output/alerts/2021/05/07/012345678ab_output_alerts_20210507T1040_mXSoDTf5Pgyr8b8D.json.gz
