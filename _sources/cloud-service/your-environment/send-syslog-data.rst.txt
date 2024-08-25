@@ -120,7 +120,7 @@ Use Logstash on a Windows endpoint with a Cyb3rhq agent to receive syslog, log t
    
          C:\logstash\bin\logstash.bat -f C:\logstash\config\logstash.conf
    
-   #. `Install Logstash as a Windows Service <https://www.elastic.co/guide/en/logstash/running-logstash-windows.html#running-logstash-windows>`_ either using `NSSM <https://www.elastic.co/guide/en/logstash/running-logstash-windows.html#running-logstash-windows-nssm>`_ or `Windows Task Scheduler <https://www.elastic.co/guide/en/logstash/running-logstash-windows.html#running-logstash-windows-scheduledtask>`_.
+   #. `Install Logstash as a Windows Service <https://www.elastic.co/guide/en/logstash/current/running-logstash-windows.html#running-logstash-windows>`_ either using `NSSM <https://www.elastic.co/guide/en/logstash/current/running-logstash-windows.html#running-logstash-windows-nssm>`_ or `Windows Task Scheduler <https://www.elastic.co/guide/en/logstash/current/running-logstash-windows.html#running-logstash-windows-scheduledtask>`_.
 
 #. Restart the Cyb3rhq agent. If you are running PowerShell, use the following command:
 

@@ -131,7 +131,7 @@ If this doesn't solve the issue, you will need to specify the path where Xcode i
 Additional information
 ^^^^^^^^^^^^^^^^^^^^^^^
 
- * `Enable hardened runtime (macOS) <https://help.apple.com/xcode/mac/#/devf87a2ac8f>`_
+ * `Enable hardened runtime (macOS) <https://help.apple.com/xcode/mac/current/#/devf87a2ac8f>`_
  * `About Code Signing <https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html>`_
  * `Code Signing Tasks <https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html#//apple_ref/doc/uid/TP40005929-CH4-SW26>`_
  * `Customizing the Notarization Workflow <https://developer.apple.com/documentation/security/notarizing_your_app_before_distribution/customizing_the_notarization_workflow?language=objc>`_

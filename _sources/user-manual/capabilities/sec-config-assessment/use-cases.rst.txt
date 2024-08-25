@@ -73,8 +73,8 @@ Take the following steps on your Ubuntu endpoint to create the file ``/usr/share
         name: "SCA use case: Keyword check"
         description: "Guidance for checking for a keyword or phrase in files on Ubuntu endpoints."
         references:
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/index.html
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/index.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
 
       requirements:
         title: "Check that the desired file exists on the monitored endpoints"
@@ -170,8 +170,8 @@ Take the following steps on your Ubuntu endpoint to create the file ``C:\Program
         name: "SCA use case: Keyword check"
         description: "Guidance for checking for a keyword or phrase in files on Windows."
         references:
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/index.html
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/index.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
       requirements:
         title: "Check that the desired file exists on the monitored endpoints"
         description: "Requirements for running the SCA scans against endpoints with testfile.txt on them."
@@ -259,8 +259,8 @@ Take the following steps on your macOS endpoint to create the file ``/usr/local/
         name: "SCA use case: Keyword check"
         description: "Guidance for checking for a keyword or phrase in files on macOS endpoints."
         references:
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/index.html
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/index.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
 
       requirements:
         title: "Check that the desired file exists on the monitored endpoints"
@@ -336,8 +336,8 @@ Netcat is a utility that uses TCP and UDP to read and write data on an IP networ
         name: "SCA use case to detect running processes"
         description: "Guidance for checking running processes on Linux endpoints."
         references:
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/index.html
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/index.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
 
       requirements:
         title: "Check that the SSH service and password-related files are present on the system"
@@ -431,8 +431,8 @@ System administrators use PowerShell to configure systems. Standard users utiliz
         name: "SCA use case to detect running processes"
         description: "Guidance for checking running PowerShell processes on Windows 10 endpoints."
         references:
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/index.html
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/index.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
 
       requirements:
         title: "Check that the Windows platform is Windows 10"
@@ -512,8 +512,8 @@ Netcat is a utility that uses TCP and UDP to read and write data on an IP networ
         name: "SCA use case to detect running processes"
         description: "Guidance for checking running processes on mac endpoints."
         references:
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/index.html
-          - https://cyb3rhq.github.io/documentation/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/index.html
+          - https://cyb3rhq.github.io/documentation/current/user-manual/capabilities/sec-config-assessment/creating-custom-policies.html
 
       requirements:
         title: "Check macOS"

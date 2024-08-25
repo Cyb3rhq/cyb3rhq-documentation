@@ -14,8 +14,8 @@
     <meta name="color-scheme" content="dark light">
     <meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 <meta content="Find out how to integrate Cyb3rhq with Splunk in this integration guide." name="description" />
-<meta property="og:image" content="https://cyb3rhq.github.io/documentation/_static/images/cyb3rhq-docs-card.png">
-    <meta property="og:url" content="https://cyb3rhq.github.io/documentation/integrations-guide/splunk/index.html">
+<meta property="og:image" content="https://cyb3rhq.github.io/documentation/current/_static/images/cyb3rhq-docs-card.png">
+    <meta property="og:url" content="https://cyb3rhq.github.io/documentation/current/integrations-guide/splunk/index.html">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Splunk integration · Cyb3rhq documentation">
     <meta property="og:description" content="User manual, installation and configuration guides. Learn how to get the most out of the Cyb3rhq platform.">
@@ -24,7 +24,7 @@
     <meta name="twitter:creator" content="@cyb3rhq">
     <meta name="twitter:title" content="Splunk integration · Cyb3rhq documentation">
     <meta name="twitter:description" content="User manual, installation and configuration guides. Learn how to get the most out of the Cyb3rhq platform.">
-    <meta name="twitter:image" content="https://cyb3rhq.github.io/documentation/_static/images/cyb3rhq-docs-card.png">
+    <meta name="twitter:image" content="https://cyb3rhq.github.io/documentation/current/_static/images/cyb3rhq-docs-card.png">
     <title>Splunk integration · Cyb3rhq documentation</title>
     <style media="prefers-color-scheme: light">
       html, body {
@@ -46,12 +46,12 @@
     <link rel="up" title="Integrations guide: Elastic, OpenSearch, Splunk, Amazon Security Lake" href="../index.html"/>
     <link rel="next" title="Amazon Security Lake integration" href="../amazon-security-lake/index.html"/>
     <link rel="prev" title="OpenSearch integration" href="../opensearch/index.html"/>
-    <link rel="stylesheet" href="../../_static/css/min/bootstrap.min.css?ver=1724567665.699305" type="text/css"><link rel="stylesheet" href="../../_static/cyb3rhq-doc-images/min/cyb3rhq-light-box.min.css" type="text/css"><link rel="stylesheet" href="../../_static/css/min/cyb3rhq-documentation.min.css?ver=1724568016.338758" type="text/css"><link rel="mask-icon" href="../../_static/images/favicon.svg?v=0" color="#000000">
+    <link rel="stylesheet" href="../../_static/css/min/bootstrap.min.css?ver=1724572133.3278925" type="text/css"><link rel="stylesheet" href="../../_static/cyb3rhq-doc-images/min/cyb3rhq-light-box.min.css" type="text/css"><link rel="stylesheet" href="../../_static/css/min/cyb3rhq-documentation.min.css?ver=1724572133.3278925" type="text/css"><link rel="mask-icon" href="../../_static/images/favicon.svg?v=0" color="#000000">
     <link rel="icon" href="../../_static/images/favicon.png?v=0" media="(prefers-color-scheme:no-preference)" sizes="any" type="image/png"/>
     <link rel="icon" href="../../_static/images/dark-favicon.png?v=0" media="(prefers-color-scheme:dark)" sizes="any" type="image/png"/>
     <link rel="icon" href="../../_static/images/favicon.png?v=0" media="(prefers-color-scheme:light)" sizes="any" type="image/png"/>
     <link rel="apple-touch-icon" href="../../_static/images/favicon.svg?v=0">
-    <link rel="canonical" href="https://cyb3rhq.github.io/documentation/integrations-guide/splunk/index.html">
+    <link rel="canonical" href="https://cyb3rhq.github.io/documentation/current/integrations-guide/splunk/index.html">
     </head><body class="document"  data-path="integrations-guide/splunk/index" data-spy="scroll" data-target="#local-toc" data-offset="200">
 <header id="header">
   <div class="nav-top">
@@ -165,7 +165,7 @@
                 <a class="nav-link" href="https://cyb3rhq.github.io/cloud/" target="_blank" rel="noreferrer noopener">Cloud</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://cyb3rhq.github.io/documentation/index.html">Documentation</a>
+                <a class="nav-link" href="https://cyb3rhq.github.io/documentation/current/index.html">Documentation</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown-services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services<b class="caret d-inline d-sm-none"></b><svg class="d-none d-sm-inline"><use xlink:href="#menu-chevron" /></svg></a>
@@ -1260,7 +1260,7 @@
 <p>You must install Logstash on a dedicated server or on the server hosting the third-party indexer.</p>
 <p>Perform the following steps on your Logstash server to set up your forwarder.</p>
 <ol class="arabic">
-<li><p>Follow the Elastic documentation to <a class="reference external" href="https://www.elastic.co/guide/en/logstash/installing-logstash.html">install Logstash</a>. Ensure that you consider the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/getting-started-with-logstash.html">requirements</a> and <a class="reference external" href="https://www.elastic.co/guide/en/logstash/performance-troubleshooting.html">performance tuning</a> guidelines for running Logstash.</p></li>
+<li><p>Follow the Elastic documentation to <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/installing-logstash.html">install Logstash</a>. Ensure that you consider the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html">requirements</a> and <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/performance-troubleshooting.html">performance tuning</a> guidelines for running Logstash.</p></li>
 <li><p>Run the following command to install the <a class="reference external" href="https://github.com/opensearch-project/logstash-input-opensearch">logstash-input-opensearch plugin</a>. This plugin reads data from the Cyb3rhq indexer into the Logstash pipeline.</p>
 <div class="highlight-console notranslate"><div class="highlight" data-pagefind-weight="0.5"><pre><span></span><span class="gp">$ </span>sudo<span class="w"> </span>/usr/share/logstash/bin/logstash-plugin<span class="w"> </span>install<span class="w"> </span>logstash-input-opensearch
 </pre></div>
@@ -1283,13 +1283,13 @@
 </section>
 <section id="configuring-a-pipeline">
 <h3>Configuring a pipeline<a class="headerlink" href="#configuring-a-pipeline" title="Permalink to this heading"></a></h3>
-<p>A <a class="reference external" href="https://www.elastic.co/guide/en/logstash/configuration.html">Logstash pipeline</a> allows Logstash to use plugins to read the data from the Cyb3rhq indexes and send them to Splunk.</p>
+<p>A <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/configuration.html">Logstash pipeline</a> allows Logstash to use plugins to read the data from the Cyb3rhq indexes and send them to Splunk.</p>
 <p>The Logstash pipeline requires access to the following secret values:</p>
 <ul class="simple">
 <li><p>Cyb3rhq indexer credentials</p></li>
 <li><p>Splunk Event Collector token</p></li>
 </ul>
-<p>To securely store these values, you can use the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/keystore.html">Logstash keystore</a>.</p>
+<p>To securely store these values, you can use the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/keystore.html">Logstash keystore</a>.</p>
 <ol class="arabic">
 <li><p>Run the following commands on your Logstash server to set a keystore password:</p>
 <div class="highlight-console notranslate"><div class="highlight" data-pagefind-weight="0.5"><pre><span></span><span class="gp">$ </span><span class="nb">set</span><span class="w"> </span>+o<span class="w"> </span><span class="nb">history</span>
@@ -1392,7 +1392,7 @@ output {
 </div>
 </li>
 </ol>
-<p>Check Elastic documentation for more details on <a class="reference external" href="https://www.elastic.co/guide/en/logstash/setup-logstash.html">setting up and running Logstash</a>.</p>
+<p>Check Elastic documentation for more details on <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/setup-logstash.html">setting up and running Logstash</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Any data indexed before the configuration is complete would not be forwarded to the Splunk indexes.</p>
@@ -1419,7 +1419,7 @@ output {
 <h3>Installing Logstash<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h3>
 <p>Logstash must forward the data from the Cyb3rhq server to the Splunk indexes created previously.</p>
 <ol class="arabic">
-<li><p>Follow the Elastic documentation to <a class="reference external" href="https://www.elastic.co/guide/en/logstash/installing-logstash.html">install Logstash</a> on the same system as the Cyb3rhq server.</p></li>
+<li><p>Follow the Elastic documentation to <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/installing-logstash.html">install Logstash</a> on the same system as the Cyb3rhq server.</p></li>
 <li><p>Copy the Splunk root certificates to the Cyb3rhq server.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -1436,9 +1436,9 @@ output {
 </section>
 <section id="id2">
 <h3>Configuring a pipeline<a class="headerlink" href="#id2" title="Permalink to this heading"></a></h3>
-<p>A <a class="reference external" href="https://www.elastic.co/guide/en/logstash/configuration.html">Logstash pipeline</a> allows Logstash to use plugins to read the data in the Cyb3rhq <code class="docutils literal notranslate"><span class="pre">/var/ossec/logs/alerts/alerts.json</span></code> alerts file and send them to Splunk.</p>
+<p>A <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/configuration.html">Logstash pipeline</a> allows Logstash to use plugins to read the data in the Cyb3rhq <code class="docutils literal notranslate"><span class="pre">/var/ossec/logs/alerts/alerts.json</span></code> alerts file and send them to Splunk.</p>
 <p>The Logstash pipeline requires access to your Splunk Event Collector Token.</p>
-<p>To securely store these values, you can use the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/keystore.html">Logstash keystore</a>.</p>
+<p>To securely store these values, you can use the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/keystore.html">Logstash keystore</a>.</p>
 <ol class="arabic">
 <li><p>Run the following commands on your Logstash server to set a keystore password:</p>
 <div class="highlight-console notranslate"><div class="highlight" data-pagefind-weight="0.5"><pre><span></span><span class="gp">$ </span><span class="nb">set</span><span class="w"> </span>+o<span class="w"> </span><span class="nb">history</span>
@@ -1463,7 +1463,7 @@ output {
 </div>
 </li>
 </ol>
-<p>Configuring the pipeline with the Tail mode and the JSON codec for the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/plugins-inputs-file.html">file input plugin</a> allows Logstash to read the Cyb3rhq alerts file.</p>
+<p>Configuring the pipeline with the Tail mode and the JSON codec for the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/plugins-inputs-file.html">file input plugin</a> allows Logstash to read the Cyb3rhq alerts file.</p>
 <p>To configure the Logstash pipeline do the following.</p>
 <ol class="arabic">
 <li><p>Copy the Splunk root certificates to the Cyb3rhq server. You can add the certificate to any directory of your choice. In our case, we add it in the <code class="docutils literal notranslate"><span class="pre">/etc/logstash/splunk-certs</span></code> directory.</p></li>
@@ -1530,7 +1530,7 @@ output {
 </div>
 </li>
 </ol>
-<p>Check Elastic documentation for more details on <a class="reference external" href="https://www.elastic.co/guide/en/logstash/setup-logstash.html">setting up and running Logstash</a>.</p>
+<p>Check Elastic documentation for more details on <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/setup-logstash.html">setting up and running Logstash</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Any data indexed before the configuration is complete would not be forwarded to the Splunk indexes.</p>
@@ -1838,9 +1838,9 @@ Configured but inactive forwards:
               <div class="footer-section">
                 <div class="footer-title">Documentation</div>
                 <ul>
-                  <li><a href="https://cyb3rhq.github.io/documentation/quickstart.html">Quickstart</a></li>
-                  <li><a href="https://cyb3rhq.github.io/getting-started/index.html">Getting started</a></li>
-                  <li><a href="https://cyb3rhq.github.io/installation-guide/index.html">Installation guide</a></li>
+                  <li><a href="https://cyb3rhq.github.io/documentation/current/quickstart.html">Quickstart</a></li>
+                  <li><a href="https://cyb3rhq.github.io/current/getting-started/index.html">Getting started</a></li>
+                  <li><a href="https://cyb3rhq.github.io/current/installation-guide/index.html">Installation guide</a></li>
                 </ul>
               </div>
             </div>
@@ -1967,6 +1967,6 @@ Configured but inactive forwards:
     </script>
       
 
-<script src="../../_static/js/jquery.js?ver=1724567665.703305"></script><script src="../../_static/js/min/bootstrap.bundle.min.js?ver=1724567665.703305"></script><script src="../../_static/js/min/redirects.min.js?ver=1724569262.8808117"></script><script src="../../_static/js/min/cyb3rhq-documentation.min.js?ver=1724568481.426032"></script><script src="../../_static/cyb3rhq-doc-images/min/cyb3rhq-light-box.min.js"></script>
+<script src="../../_static/js/jquery.js?ver=1724572133.3318925"></script><script src="../../_static/js/min/bootstrap.bundle.min.js?ver=1724572133.3318925"></script><script src="../../_static/js/min/redirects.min.js?ver=1724572147.788014"></script><script src="../../_static/js/min/cyb3rhq-documentation.min.js?ver=1724572133.3318925"></script><script src="../../_static/cyb3rhq-doc-images/min/cyb3rhq-light-box.min.js"></script>
   <div id="cyb3rhq-light-box-overlay" class="cyb3rhq-light-box-overlay"></div><div id="cyb3rhq-light-box" class="cyb3rhq-light-box"><div class="cyb3rhq-light-box-slides-container"><div class="wlb-loading"></div><div class="cyb3rhq-light-box-slide" data-image-id="cyb3rhq_image-0"><div class="wlb-image-wrapper"><img class="wlb-image" src="../../_images/integration-diagram-splunk1.png" alt=""><div tabindex="0" class="wlb-next-button"><span class="wlb-next-button-content read-only">Next image</span></div></div><div class="wlb-data-container"><div class="wlb-title-container">Splunk integration diagram</div><div class="wlb-number-container">Image 1 of 7</div></div></div><div class="cyb3rhq-light-box-slide" data-image-id="cyb3rhq_image-1"><div class="wlb-image-wrapper"><img class="wlb-image" src="../../_images/enable-http-event-collector1.gif" alt=""><div tabindex="0" class="wlb-prev-button"><span class="wlb-prev-button-content read-only">Previous image</span></div><div tabindex="0" class="wlb-next-button"><span class="wlb-next-button-content read-only">Next image</span></div></div><div class="wlb-data-container"><div class="wlb-title-container">Enable the HTTP Event Collector</div><div class="wlb-number-container">Image 2 of 7</div></div></div><div class="cyb3rhq-light-box-slide" data-image-id="cyb3rhq_image-2"><div class="wlb-image-wrapper"><img class="wlb-image" src="../../_images/enable-http-event-collector1.gif" alt=""><div tabindex="0" class="wlb-prev-button"><span class="wlb-prev-button-content read-only">Previous image</span></div><div tabindex="0" class="wlb-next-button"><span class="wlb-next-button-content read-only">Next image</span></div></div><div class="wlb-data-container"><div class="wlb-title-container">Enable the HTTP Event Collector</div><div class="wlb-number-container">Image 3 of 7</div></div></div><div class="cyb3rhq-light-box-slide" data-image-id="cyb3rhq_image-3"><div class="wlb-image-wrapper"><img class="wlb-image" src="../../_images/configuring-the-receiving-port1.gif" alt=""><div tabindex="0" class="wlb-prev-button"><span class="wlb-prev-button-content read-only">Previous image</span></div><div tabindex="0" class="wlb-next-button"><span class="wlb-next-button-content read-only">Next image</span></div></div><div class="wlb-data-container"><div class="wlb-title-container">Configuring the receiving port</div><div class="wlb-number-container">Image 4 of 7</div></div></div><div class="cyb3rhq-light-box-slide" data-image-id="cyb3rhq_image-4"><div class="wlb-image-wrapper"><img class="wlb-image" src="../../_images/configuring-index-pattern-in-splunk1.gif" alt=""><div tabindex="0" class="wlb-prev-button"><span class="wlb-prev-button-content read-only">Previous image</span></div><div tabindex="0" class="wlb-next-button"><span class="wlb-next-button-content read-only">Next image</span></div></div><div class="wlb-data-container"><div class="wlb-title-container">Configuring the cyb3rhq-alerts indexes in Splunk Web</div><div class="wlb-number-container">Image 5 of 7</div></div></div><div class="cyb3rhq-light-box-slide" data-image-id="cyb3rhq_image-5"><div class="wlb-image-wrapper"><img class="wlb-image" src="../../_images/security-events-dashboard-for-splunk1.png" alt=""><div tabindex="0" class="wlb-prev-button"><span class="wlb-prev-button-content read-only">Previous image</span></div><div tabindex="0" class="wlb-next-button"><span class="wlb-next-button-content read-only">Next image</span></div></div><div class="wlb-data-container"><div class="wlb-title-container">Cyb3rhq security events on Splunk dashboard</div><div class="wlb-number-container">Image 6 of 7</div></div></div><div class="cyb3rhq-light-box-slide" data-image-id="cyb3rhq_image-6"><div class="wlb-image-wrapper"><img class="wlb-image" src="../../_images/import-dashboard-in-splunk1.gif" alt=""><div tabindex="0" class="wlb-prev-button"><span class="wlb-prev-button-content read-only">Previous image</span></div></div><div class="wlb-data-container"><div class="wlb-title-container">Importing Cyb3rhq dashboards for Splunk</div><div class="wlb-number-container">Image 7 of 7</div></div></div></div><button tabindex="0" class="wlb-close-button"><span class="wlb-close-button-content read-only">Close</span></button></div></body>
 </html>

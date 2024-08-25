@@ -143,7 +143,7 @@ Installing and configuring Logstash
 
 Install Logstash on a dedicated server or on the server hosting the Cyb3rhq Indexer. Logstash forwards the data from the Cyb3rhq Indexer to the AWS S3 bucket created previously.
 
-#. Follow the `official documentation <https://www.elastic.co/guide/en/logstash/installing-logstash.html>`__ to install Logstash.
+#. Follow the `official documentation <https://www.elastic.co/guide/en/logstash/current/installing-logstash.html>`__ to install Logstash.
 #. Install the `logstash-input-opensearch <https://github.com/opensearch-project/logstash-input-opensearch>`__ plugin (this one is installed by default in most cases).
 
    .. code-block:: console
@@ -160,7 +160,7 @@ Install Logstash on a dedicated server or on the server hosting the Cyb3rhq Inde
 Configuring the Logstash pipeline
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/configuration.html>`__ allows Logstash to use plugins to read the data from the Cyb3rhq Indexer and send them to an AWS S3 bucket.
+A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/current/configuration.html>`__ allows Logstash to use plugins to read the data from the Cyb3rhq Indexer and send them to an AWS S3 bucket.
 
 The Logstash pipeline requires access to the following secrets:
 
@@ -168,7 +168,7 @@ The Logstash pipeline requires access to the following secrets:
 -  AWS credentials for the account with permissions to write to the S3 bucket: ``AWS_ACCESS_KEY_ID`` and ``AWS_SECRET_ACCESS_KEY``.
 -  AWS S3 bucket details: ``AWS_REGION`` and ``S3_BUCKET`` (the S3 bucket name for raw events).
 
-#. Use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/keystore.html>`__ to securely store these values.
+#. Use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/current/keystore.html>`__ to securely store these values.
 
 #. Create the configuration file ``indexer-to-s3.conf`` in the ``/etc/logstash/conf.d/`` folder:
 

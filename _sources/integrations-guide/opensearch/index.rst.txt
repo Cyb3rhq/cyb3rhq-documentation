@@ -30,7 +30,7 @@ Installing Logstash
 
 Perform the following steps to install Logstash and the required plugins. Ensure your `Logstash and OpenSearch versions are compatible <https://opensearch.org/docs/latest/tools/index/#compatibility-matrices>`__.
 
-#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/installing-logstash.html>`__.
+#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/current/installing-logstash.html>`__.
 #. Install the `logstash-input-opensearch plugin <https://github.com/opensearch-project/logstash-input-opensearch>`__ and the `logstash-output-opensearch plugin <https://github.com/opensearch-project/logstash-output-opensearch>`__ using the following command. These plugins allow reading the data from the Cyb3rhq indexer into the Logstash pipeline and writing the data into OpenSearch.
 
    .. code-block:: console
@@ -92,14 +92,14 @@ You can further increase this value by following the `creating an index template
 Configuring a pipeline
 ^^^^^^^^^^^^^^^^^^^^^^
 
-A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/configuration.html>`__ allows Logstash to use plugins to read the data from the Cyb3rhq indexes and send them to OpenSearch.
+A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/current/configuration.html>`__ allows Logstash to use plugins to read the data from the Cyb3rhq indexes and send them to OpenSearch.
 
 The Logstash pipeline requires access to the following secret values:
 
 -  Cyb3rhq indexer credentials
 -  OpenSearch credentials
 
-We use the  `Logstash keystore <https://www.elastic.co/guide/en/logstash/keystore.html>`__ to securely store these values.
+We use the  `Logstash keystore <https://www.elastic.co/guide/en/logstash/current/keystore.html>`__ to securely store these values.
 
 #. Run the following commands on your Logstash server to set a keystore password:
 
@@ -126,7 +126,7 @@ We use the  `Logstash keystore <https://www.elastic.co/guide/en/logstash/keystor
 
       When you run each of the commands, you will be prompted to enter your credentials and the credentials will not be visible as you enter them.
 
-      ``OPENSEARCH_USERNAME``, ``OPENSEARCH_PASSWORD``, ``CYB3RHQ_INDEXER_USERNAME``, and ``CYB3RHQ_INDEXER_PASSWORD`` are `keys <https://www.elastic.co/guide/en/logstash/keystore.html>`__ representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.
+      ``OPENSEARCH_USERNAME``, ``OPENSEARCH_PASSWORD``, ``CYB3RHQ_INDEXER_USERNAME``, and ``CYB3RHQ_INDEXER_PASSWORD`` are `keys <https://www.elastic.co/guide/en/logstash/current/keystore.html>`__ representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.
 
    #. Create a new Logstash keystore:
 
@@ -239,7 +239,7 @@ Running Logstash
       $ sudo systemctl enable logstash
       $ sudo systemctl start logstash
 
-Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/setup-logstash.html>`__.
+Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/current/setup-logstash.html>`__.
 
 .. note::
    
@@ -263,7 +263,7 @@ We use Logstash to forward security data in the ``/var/ossec/logs/alerts/alerts.
 
 Perform the following steps to install Logstash and the required plugin.
 
-#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/installing-logstash.html>`__ on the Cyb3rhq server.
+#. Follow the Elastic documentation to `install Logstash <https://www.elastic.co/guide/en/logstash/current/installing-logstash.html>`__ on the Cyb3rhq server.
 #. Run the following command to install the `logstash-output-opensearch plugin <https://github.com/opensearch-project/logstash-output-opensearch>`__. This plugin allows Logstash to write the data into OpenSearch.
 
    .. code-block:: console
@@ -320,11 +320,11 @@ You can further increase this value by following the `creating an index template
 Configuring a pipeline
 ^^^^^^^^^^^^^^^^^^^^^^
 
-A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/configuration.html>`__ allows Logstash to use plugins to read the data in the Cyb3rhq ``/var/ossec/logs/alerts/alerts.json`` alerts file and send them to OpenSearch.
+A `Logstash pipeline <https://www.elastic.co/guide/en/logstash/current/configuration.html>`__ allows Logstash to use plugins to read the data in the Cyb3rhq ``/var/ossec/logs/alerts/alerts.json`` alerts file and send them to OpenSearch.
 
 The Logstash pipeline requires access to your OpenSearch credentials.
 
-We use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/keystore.html>`__ to securely store these values.
+We use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/current/keystore.html>`__ to securely store these values.
 
 #. Run the following commands on your Logstash server to set a keystore password:
 
@@ -351,7 +351,7 @@ We use the `Logstash keystore <https://www.elastic.co/guide/en/logstash/keystore
       
       When you run each of the commands, you will be prompted to enter your credentials and the credentials will not be visible as you enter them.
 
-      ``OPENSEARCH_USERNAME`` and ``OPENSEARCH_PASSWORD`` are `keys <https://www.elastic.co/guide/en/logstash/keystore.html>`__ representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.
+      ``OPENSEARCH_USERNAME`` and ``OPENSEARCH_PASSWORD`` are `keys <https://www.elastic.co/guide/en/logstash/current/keystore.html>`__ representing the secret values you are adding to the Logstash keystore. These keys will be used in the Logstash pipeline.
 
    #. Create a new Logstash keystore:
 
@@ -455,7 +455,7 @@ Running Logstash
 
    The ``/var/log/logstash/logstash-plain.log`` file in the Logstash instance stores events generated when Logstash runs. View this file in case you need to troubleshoot.
 
-Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/setup-logstash.html>`__.
+Check Elastic documentation for more details on `setting up and running Logstash <https://www.elastic.co/guide/en/logstash/current/setup-logstash.html>`__.
 
 .. _configuring_cyb3rhq_alerts_index_pattern_in_opensearch:
 

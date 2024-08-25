@@ -14,8 +14,8 @@
     <meta name="color-scheme" content="dark light">
     <meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 <meta content="Learn how to configure Amazon Security Lake." name="description" />
-<meta property="og:image" content="https://cyb3rhq.github.io/documentation/_static/images/cyb3rhq-docs-card.png">
-    <meta property="og:url" content="https://cyb3rhq.github.io/documentation/integrations-guide/amazon-security-lake/index.html">
+<meta property="og:image" content="https://cyb3rhq.github.io/documentation/current/_static/images/cyb3rhq-docs-card.png">
+    <meta property="og:url" content="https://cyb3rhq.github.io/documentation/current/integrations-guide/amazon-security-lake/index.html">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Amazon Security Lake integration · Cyb3rhq documentation">
     <meta property="og:description" content="User manual, installation and configuration guides. Learn how to get the most out of the Cyb3rhq platform.">
@@ -24,7 +24,7 @@
     <meta name="twitter:creator" content="@cyb3rhq">
     <meta name="twitter:title" content="Amazon Security Lake integration · Cyb3rhq documentation">
     <meta name="twitter:description" content="User manual, installation and configuration guides. Learn how to get the most out of the Cyb3rhq platform.">
-    <meta name="twitter:image" content="https://cyb3rhq.github.io/documentation/_static/images/cyb3rhq-docs-card.png">
+    <meta name="twitter:image" content="https://cyb3rhq.github.io/documentation/current/_static/images/cyb3rhq-docs-card.png">
     <title>Amazon Security Lake integration · Cyb3rhq documentation</title>
     <style media="prefers-color-scheme: light">
       html, body {
@@ -46,12 +46,12 @@
     <link rel="up" title="Integrations guide: Elastic, OpenSearch, Splunk, Amazon Security Lake" href="../index.html"/>
     <link rel="next" title="Migration guide" href="../../migration-guide/index.html"/>
     <link rel="prev" title="Splunk integration" href="../splunk/index.html"/>
-    <link rel="stylesheet" href="../../_static/css/min/bootstrap.min.css?ver=1724567665.699305" type="text/css"><link rel="stylesheet" href="../../_static/cyb3rhq-doc-images/min/cyb3rhq-light-box.min.css" type="text/css"><link rel="stylesheet" href="../../_static/css/min/cyb3rhq-documentation.min.css?ver=1724568016.338758" type="text/css"><link rel="mask-icon" href="../../_static/images/favicon.svg?v=0" color="#000000">
+    <link rel="stylesheet" href="../../_static/css/min/bootstrap.min.css?ver=1724572133.3278925" type="text/css"><link rel="stylesheet" href="../../_static/cyb3rhq-doc-images/min/cyb3rhq-light-box.min.css" type="text/css"><link rel="stylesheet" href="../../_static/css/min/cyb3rhq-documentation.min.css?ver=1724572133.3278925" type="text/css"><link rel="mask-icon" href="../../_static/images/favicon.svg?v=0" color="#000000">
     <link rel="icon" href="../../_static/images/favicon.png?v=0" media="(prefers-color-scheme:no-preference)" sizes="any" type="image/png"/>
     <link rel="icon" href="../../_static/images/dark-favicon.png?v=0" media="(prefers-color-scheme:dark)" sizes="any" type="image/png"/>
     <link rel="icon" href="../../_static/images/favicon.png?v=0" media="(prefers-color-scheme:light)" sizes="any" type="image/png"/>
     <link rel="apple-touch-icon" href="../../_static/images/favicon.svg?v=0">
-    <link rel="canonical" href="https://cyb3rhq.github.io/documentation/integrations-guide/amazon-security-lake/index.html">
+    <link rel="canonical" href="https://cyb3rhq.github.io/documentation/current/integrations-guide/amazon-security-lake/index.html">
     </head><body class="document"  data-path="integrations-guide/amazon-security-lake/index" data-spy="scroll" data-target="#local-toc" data-offset="200">
 <header id="header">
   <div class="nav-top">
@@ -165,7 +165,7 @@
                 <a class="nav-link" href="https://cyb3rhq.github.io/cloud/" target="_blank" rel="noreferrer noopener">Cloud</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://cyb3rhq.github.io/documentation/index.html">Documentation</a>
+                <a class="nav-link" href="https://cyb3rhq.github.io/documentation/current/index.html">Documentation</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown-services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services<b class="caret d-inline d-sm-none"></b><svg class="d-none d-sm-inline"><use xlink:href="#menu-chevron" /></svg></a>
@@ -1358,7 +1358,7 @@
 <h4>Installing and configuring Logstash<a class="headerlink" href="#installing-and-configuring-logstash" title="Permalink to this heading"></a></h4>
 <p>Install Logstash on a dedicated server or on the server hosting the Cyb3rhq Indexer. Logstash forwards the data from the Cyb3rhq Indexer to the AWS S3 bucket created previously.</p>
 <ol class="arabic">
-<li><p>Follow the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/installing-logstash.html">official documentation</a> to install Logstash.</p></li>
+<li><p>Follow the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/installing-logstash.html">official documentation</a> to install Logstash.</p></li>
 <li><p>Install the <a class="reference external" href="https://github.com/opensearch-project/logstash-input-opensearch">logstash-input-opensearch</a> plugin (this one is installed by default in most cases).</p>
 <div class="highlight-console notranslate"><div class="highlight" data-pagefind-weight="0.5"><pre><span></span><span class="gp">$ </span>sudo<span class="w"> </span>/usr/share/logstash/bin/logstash-plugin<span class="w"> </span>install<span class="w"> </span>logstash-input-opensearch
 </pre></div>
@@ -1375,7 +1375,7 @@
 </section>
 <section id="configuring-the-logstash-pipeline">
 <h3>Configuring the Logstash pipeline<a class="headerlink" href="#configuring-the-logstash-pipeline" title="Permalink to this heading"></a></h3>
-<p>A <a class="reference external" href="https://www.elastic.co/guide/en/logstash/configuration.html">Logstash pipeline</a> allows Logstash to use plugins to read the data from the Cyb3rhq Indexer and send them to an AWS S3 bucket.</p>
+<p>A <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/configuration.html">Logstash pipeline</a> allows Logstash to use plugins to read the data from the Cyb3rhq Indexer and send them to an AWS S3 bucket.</p>
 <p>The Logstash pipeline requires access to the following secrets:</p>
 <ul class="simple">
 <li><p>Cyb3rhq Indexer credentials: <code class="docutils literal notranslate"><span class="pre">INDEXER_USERNAME</span></code> and <code class="docutils literal notranslate"><span class="pre">INDEXER_PASSWORD</span></code>.</p></li>
@@ -1383,7 +1383,7 @@
 <li><p>AWS S3 bucket details: <code class="docutils literal notranslate"><span class="pre">AWS_REGION</span></code> and <code class="docutils literal notranslate"><span class="pre">S3_BUCKET</span></code> (the S3 bucket name for raw events).</p></li>
 </ul>
 <ol class="arabic">
-<li><p>Use the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/keystore.html">Logstash keystore</a> to securely store these values.</p></li>
+<li><p>Use the <a class="reference external" href="https://www.elastic.co/guide/en/logstash/current/keystore.html">Logstash keystore</a> to securely store these values.</p></li>
 <li><p>Create the configuration file <code class="docutils literal notranslate"><span class="pre">indexer-to-s3.conf</span></code> in the <code class="docutils literal notranslate"><span class="pre">/etc/logstash/conf.d/</span></code> folder:</p>
 <div class="highlight-console notranslate"><div class="highlight" data-pagefind-weight="0.5"><pre><span></span><span class="gp">$ </span>sudo<span class="w"> </span>touch<span class="w"> </span>/etc/logstash/conf.d/indexer-to-s3.conf
 </pre></div>
@@ -1612,9 +1612,9 @@
               <div class="footer-section">
                 <div class="footer-title">Documentation</div>
                 <ul>
-                  <li><a href="https://cyb3rhq.github.io/documentation/quickstart.html">Quickstart</a></li>
-                  <li><a href="https://cyb3rhq.github.io/getting-started/index.html">Getting started</a></li>
-                  <li><a href="https://cyb3rhq.github.io/installation-guide/index.html">Installation guide</a></li>
+                  <li><a href="https://cyb3rhq.github.io/documentation/current/quickstart.html">Quickstart</a></li>
+                  <li><a href="https://cyb3rhq.github.io/current/getting-started/index.html">Getting started</a></li>
+                  <li><a href="https://cyb3rhq.github.io/current/installation-guide/index.html">Installation guide</a></li>
                 </ul>
               </div>
             </div>
@@ -1741,6 +1741,6 @@
     </script>
       
 
-<script src="../../_static/js/jquery.js?ver=1724567665.703305"></script><script src="../../_static/js/min/bootstrap.bundle.min.js?ver=1724567665.703305"></script><script src="../../_static/js/min/redirects.min.js?ver=1724569262.8808117"></script><script src="../../_static/js/min/cyb3rhq-documentation.min.js?ver=1724568481.426032"></script><script src="../../_static/cyb3rhq-doc-images/min/cyb3rhq-light-box.min.js"></script>
+<script src="../../_static/js/jquery.js?ver=1724572133.3318925"></script><script src="../../_static/js/min/bootstrap.bundle.min.js?ver=1724572133.3318925"></script><script src="../../_static/js/min/redirects.min.js?ver=1724572147.788014"></script><script src="../../_static/js/min/cyb3rhq-documentation.min.js?ver=1724572133.3318925"></script><script src="../../_static/cyb3rhq-doc-images/min/cyb3rhq-light-box.min.js"></script>
   <div id="cyb3rhq-light-box-overlay" class="cyb3rhq-light-box-overlay"></div><div id="cyb3rhq-light-box" class="cyb3rhq-light-box"><div class="cyb3rhq-light-box-slides-container"><div class="wlb-loading"></div><div class="cyb3rhq-light-box-slide" data-image-id="cyb3rhq_image-0"><div class="wlb-image-wrapper"><img class="wlb-image" src="../../_images/asl-overview1.png" alt=""><div tabindex="0" class="wlb-next-button"><span class="wlb-next-button-content read-only">Next image</span></div></div><div class="wlb-data-container"><div class="wlb-title-container"></div><div class="wlb-number-container">Image 1 of 4</div></div></div><div class="cyb3rhq-light-box-slide" data-image-id="cyb3rhq_image-1"><div class="wlb-image-wrapper"><img class="wlb-image" src="../../_images/asl-custom-source-form1.png" alt=""><div tabindex="0" class="wlb-prev-button"><span class="wlb-prev-button-content read-only">Previous image</span></div><div tabindex="0" class="wlb-next-button"><span class="wlb-next-button-content read-only">Next image</span></div></div><div class="wlb-data-container"><div class="wlb-title-container"></div><div class="wlb-number-container">Image 2 of 4</div></div></div><div class="cyb3rhq-light-box-slide" data-image-id="cyb3rhq_image-2"><div class="wlb-image-wrapper"><img class="wlb-image" src="../../_images/asl-custom-source1.png" alt=""><div tabindex="0" class="wlb-prev-button"><span class="wlb-prev-button-content read-only">Previous image</span></div><div tabindex="0" class="wlb-next-button"><span class="wlb-next-button-content read-only">Next image</span></div></div><div class="wlb-data-container"><div class="wlb-title-container"></div><div class="wlb-number-container">Image 3 of 4</div></div></div><div class="cyb3rhq-light-box-slide" data-image-id="cyb3rhq_image-3"><div class="wlb-image-wrapper"><img class="wlb-image" src="../../_images/asl-lambda-trigger1.png" alt=""><div tabindex="0" class="wlb-prev-button"><span class="wlb-prev-button-content read-only">Previous image</span></div></div><div class="wlb-data-container"><div class="wlb-title-container"></div><div class="wlb-number-container">Image 4 of 4</div></div></div></div><button tabindex="0" class="wlb-close-button"><span class="wlb-close-button-content read-only">Close</span></button></div></body>
 </html>
